@@ -50,11 +50,13 @@ const Page = React.createClass({
             <span className={css(ST.bio)}>
                 Kay Kassirer is a Toronto based spoken word poet and activist.
                 They use their poetry to tell stories, educate people, and
-                heal. Kay can be found leading workshops, frequenting local
-                poetry slams, or stuck in a tree. Kay was a member of the 2015
-                Toronto Poetry Slam Team, and continues to travel
-                internationally with their words. Kay has a chapbook published
-                by We Flip Tables Press entitled Confessions of a Queer.
+                heal. Kay can be found leading workshops, frequenting poetry
+                slams, or stuck in a tree. Kay was a member of the 2015 Toronto
+                Poetry Slam Team and made it to final stage at the 2016 Canadian
+                Individual Poetry Slam. Kay came in 2nd at Capturing Fire 2016,
+                the International Queer Poetry Slam, and continues to travel the
+                world with their words. Kay has a chapbook published by We Flip
+                Tables Press entitled Confessions of a Queer.
             </span>
             </div>
         </div>;
