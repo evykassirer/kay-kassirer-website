@@ -144,7 +144,7 @@ const LIST_OF_SHOWS = [
         linkToEvent: "http://versesfestival.ca/about-verses/poetry-slam/",
         blurb: `Kay competed as one of 40 poets from across the nation 
             in a large-scale national event to determine the best slammer
-            in Canada. They performed on the finals stage!
+            in Canada. They performed on the finals stage and placed 8th!
             CIPS is sponsored by SpoCan (Spoken Word Canada),
             the governing body of Canadian poetry slam.`,
         image: 'CIPS2016.jpeg',
