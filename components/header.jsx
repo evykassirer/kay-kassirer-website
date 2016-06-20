@@ -29,10 +29,10 @@ const Header = React.createClass({
                               ST.headerElement,
                               this.props.page === "youtube" && ST.selected)}
                 href="/youtube">YouTube</a>
-                {/*}             <a className={css(ST.pageName,
+             <a className={css(ST.pageName,
                                   ST.headerElement,
                                   this.props.page === "merch" && ST.selected)}
-                href="/">Merch</a>*/}
+                href="/merch">Merch</a>
         </div>;
     }
 });
