@@ -17,10 +17,10 @@ const Header = React.createClass({
                               ST.headerElement,
                               this.props.page === "home" && ST.selected)}
                 href="/">Home</a>
-            <a className={css(ST.pageName,
+{/*}            <a className={css(ST.pageName,
                               ST.headerElement,
                               this.props.page === "about" && ST.selected)}
-                href="/about">About</a>
+                href="/about">About</a>*/}
             <a className={css(ST.pageName,
                               ST.headerElement,
                               this.props.page === "shows" && ST.selected)} 
@@ -29,10 +29,10 @@ const Header = React.createClass({
                               ST.headerElement,
                               this.props.page === "youtube" && ST.selected)}
                 href="/youtube">YouTube</a>
-                <a className={css(ST.pageName,
+                {/*}             <a className={css(ST.pageName,
                                   ST.headerElement,
                                   this.props.page === "merch" && ST.selected)}
-                href="/">Merch</a>
+                href="/">Merch</a>*/}
         </div>;
     }
 });
