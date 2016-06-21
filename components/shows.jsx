@@ -218,28 +218,43 @@ const LIST_OF_SHOWS = [
         id: 6,
     },
     {
-        startDate: moment("July 8 16 7:30", "MMMM DD YY  h:mm A"),
+        startDate: moment("July 8 16 7:30 PM", "MMMM DD YY h:mm A"),
         endDate: null,
         title: "St. Catharines Poetry SLAM July ft Kay Kassirer",
         location: "Mahtay Café & Lounge - 241 St. Paul Street, Saint Catharines, Ontario",
         linkToEvent: "https://www.facebook.com/events/259608111062392/",
         blurb: `The St. Catharines POETRY SLAM is a monthly competitive spoken word event.
-            Doors @ 7:30 pm | $5 | Mahtay Café & Lounge. Open mic @ 8pm followed by a
-            2 round slam with Kay featuring between rounds. `,
+            Doors @ 7:30 pm // $5 // Open mic @ 8pm followed by a 2 round slam with
+            Kay featuring between rounds. `,
         image: 'https://scontent-yyz1-1.xx.fbcdn.net/v/t1.0-9/13502054_10153781568777635_3597850132156999287_n.jpg?oh=ec444f3b299d91c54128f8bd655ba940&oe=57D2E345',
         id: 7,
     },
     {
-        startDate: moment("July 10 16 6:30", "MMMM DD YY  h:mm A"),
+        startDate: moment("July 10 16 6:30 PM", "MMMM DD YY h:mm A"),
         endDate: null,
         title: "Spoken Weird Open Mic & Poetry Slam",
         location: "45 Queen St, Oshawa, Ontario - in the auditorium of the Arts Resource ",
         linkToEvent: "https://www.facebook.com/events/247143885658618/",
         blurb: `Come on down to Spoken Weird Open Mic & Poetry Slam to help kick off the
             summer right. This month, featuring the fantastical Kay Kassirer! 
-            -- Open mic / Slam starts @ 6:30pm / Cover: $6`,
+            // Open mic // Slam starts @ 6:30pm // Cover: $6`,
         image: 'https://scontent-yyz1-1.xx.fbcdn.net/v/t1.0-9/13428623_1037278893007126_7971140840243997270_n.jpg?oh=a696728b7a0e74be67796f0c8e85bac5&oe=57D468FF',
         id: 8,
+    },
+    {
+        startDate: moment("July 6 16 7:00 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "WordSpell Spoken Word Showcase/Open Mic PRIDE TRIBUTE feat. Rabbit Richards & Kay Kassirer!",
+        location: "Free Times Cafe - 320 College Street, Toronto, Ontario",
+        linkToEvent: "https://www.facebook.com/events/950791465037620/",
+        blurb: `The WordSpell Collective runs the only series bringing together
+            talented established and emerging trans/cis women and gender non-binary
+            spoken word artists on a recurring basis in Toronto. 
+            // Doors: open at 7 pm | Open Mic (open to all women and gender non-binary
+                folks) sign up at 7:30 | Show at 8 // Tickets at door: $6 and up (cash)
+            // ALL ages & genders welcome in the audience!`,
+        image: 'https://pbs.twimg.com/profile_images/2725509143/bba42a63b4a18094f02a1004a82dc14d_400x400.png',
+        id: 9,
     },
 ];
 
