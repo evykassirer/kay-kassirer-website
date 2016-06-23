@@ -256,6 +256,19 @@ const LIST_OF_SHOWS = [
         image: 'https://pbs.twimg.com/profile_images/2725509143/bba42a63b4a18094f02a1004a82dc14d_400x400.png',
         id: 9,
     },
+    {
+        startDate: moment("July 26 16 6:30 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "Shab-e She'r (Poetry Night) XLII feat. Kay Kassirer & John Portelli ",
+        location: "Beit Zatoun - 612 Markham St, Toronto, Ontario",
+        linkToEvent: "https://www.facebook.com/events/620619974765278/",
+        blurb: `The most diverse poetry reading and open mic in Toronto 
+                At Shab-e She’r (Poetry Night) we don’t just wait for diversity to
+                happen: we actively invite it. // Doors open 6:15 p.m. // 
+                Open-mic sign-up 6:30 p.m. // Show 7 p.m. // Admission: $5`,
+        image: 'http://beitzatoun.org/wp-content/uploads/2014/05/XVIII-Poster-B-1.jpg',
+        id: 10,
+    },
 ];
 
 module.exports = Shows;
