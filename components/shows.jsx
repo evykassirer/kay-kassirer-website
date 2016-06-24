@@ -28,13 +28,13 @@ const Show = React.createClass({
                 {details.title}
             </a>
             <div className={css(ST.timeAndPlace)}>
-                When: {details.endDate ?
+                <span className={css(ST.boldText)}>When:</span> {details.endDate ?
                     details.startDate.format("MMM D") + " to " +
                         details.endDate.format("MMM D, YYYY") :
                     details.startDate.format("MMM D, YYYY @ h:mm A")}
             </div>
             <div className={css(ST.timeAndPlace)}>
-                Where: {details.location}
+                <span className={css(ST.boldText)}>Where: </span> {details.location}
             </div>
             <div className={css(ST.blurbBox)}>
                 <image
@@ -126,6 +126,9 @@ const ST = StyleSheet.create({
     },
     timeAndPlace: {
         marginTop: "10px",
+    },
+    boldText: {
+        fontWeight: "bold",
     },
     showsHeader: {
         color: SS.colors.teal.light,
@@ -268,6 +271,17 @@ const LIST_OF_SHOWS = [
                 Open-mic sign-up 6:30 p.m. // Show 7 p.m. // Admission: $5`,
         image: 'http://beitzatoun.org/wp-content/uploads/2014/05/XVIII-Poster-B-1.jpg',
         id: 10,
+    },
+    {
+        startDate: moment("July 14 16 9:00 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "Poets and Pancakes",
+        location: "Flapjack's Canadian Diner - 354A PRESTON ST., Ottawa, Ontario",
+        linkToEvent: "https://www.facebook.com/events/146990275709125/",
+        blurb: `Just Peace, Jon Hedderwick, Kay Kassirer, and Anthony Bansfield //
+        Doors open at 9pm // $10`,
+        image: 'urban-legends.png',
+        id: 11,
     },
 ];
 
