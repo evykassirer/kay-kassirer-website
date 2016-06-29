@@ -283,6 +283,22 @@ const LIST_OF_SHOWS = [
         image: 'urban-legends.png',
         id: 11,
     },
+    {
+        startDate: moment("July 11 16 7:00 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "Spoken Word & Mental Health: Writing to Survive",
+        location: "1506 Quantum-Nano Centre, UW, Waterloo, Ontario",
+        linkToEvent: "https://www.facebook.com/events/265803637112986/",
+        blurb: `Free workshop: Join us at an inner journey of validation as we
+            write about the struggles and traumas we have faced. Learn more about
+            yourself and your mental health as Kay leads us in a series of writing
+            exercises. Come prepared to hear some heavy stories, and share your own
+            if you'd like. All skill levels welcome.`,
+        image: 'http://kaykassirer.com/images/Kay-banner.jpg',
+        id: 12,
+    },
+
+    
 ];
 
 module.exports = Shows;
