@@ -286,7 +286,7 @@ const LIST_OF_SHOWS = [
     {
         startDate: moment("July 11 16 7:00 PM", "MMMM DD YY h:mm A"),
         endDate: null,
-        title: "Spoken Word & Mental Health: Writing to Survive",
+        title: "(workshop) Spoken Word & Mental Health: Writing to Survive",
         location: "1506 Quantum-Nano Centre, UW, Waterloo, Ontario",
         linkToEvent: "https://www.facebook.com/events/265803637112986/",
         blurb: `Free workshop: Join us at an inner journey of validation as we
@@ -297,7 +297,33 @@ const LIST_OF_SHOWS = [
         image: 'http://kaykassirer.com/images/Kay-banner.jpg',
         id: 12,
     },
-
+    {
+        startDate: moment("July 18 16 7:30 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "The Poetry Show ft Kay Kassirer & Danielle Altrogge",
+        location: "The Mansion Kingston - 506 Princess Street, Kingston, Ontario",
+        linkToEvent: "https://www.facebook.com/events/1764470660467376",
+        blurb: `FThis is a call to all wordsmiths, literary lovers and other
+        creative weirdos to converge for the verbal wizardry we call a poetry show!
+        // Doors at 7:30pm // Show at 8pm // Admission: $12/pay what you can
+        // All ages!`,
+        image: 'https://scontent-yyz1-1.xx.fbcdn.net/t31.0-8/13497696_10101468320656241_4002979172575316259_o.jpg',
+        id: 13,
+    },
+    {
+        startDate: moment("July 18 16 3 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "Workshop: Exploring Gender & Sexuality through Spoken Word",
+        location: "room 352, John Deutsch University Center, 99 University Ave, Kingston, Ontario",
+        linkToEvent: "https://www.facebook.com/events/1615620208729426/",
+        blurb: `Delve into your identity as we write about our experiences with gender and
+        sexuality. Kay Kassirer will lead us through writing exercises to help us better
+        understand ourselves and others. Come prepared to hear some personal stories, and
+        share your own if you’d like. All skill levels welcome. Just bring a pen/paper and
+        your lovely selves. // Admission is $10/pay what you can`,
+        image: 'http://kaykassirer.com/images/Kay-banner.jpg',
+        id: 14,
+    },
     
 ];
 
