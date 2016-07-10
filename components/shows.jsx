@@ -324,6 +324,20 @@ const LIST_OF_SHOWS = [
         image: 'http://kaykassirer.com/images/Kay-banner.jpg',
         id: 14,
     },
+    {
+        startDate: moment("August 13 16 6 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "The Loud Mouth Free 4 Yr. Anniversary Slam! Feat. Casandra Faith & Kay Kassirer!",
+        location: "Howie & Son's Pizza Parlor, 2430 S Mooney Blvd, Visalia, California",
+        linkToEvent: "https://www.facebook.com/events/1757668861178173/",
+        blurb: ` It's been 4 Amazing Years since we first started hosting slams in Visalia
+        and have accomplished so much in that time frame. So for one night, we are gonna
+        celebrate and try to pull off our BIGGEST SHOW EVER the best way we know how:
+        With a Slam Competition! // 3 min time limit // 3 rounds // show is free //
+        competing poets pay $5 to go towards the cash prize!`,
+        image: 'https://scontent-yyz1-1.xx.fbcdn.net/v/t1.0-9/13645295_935384909903440_603828627364549639_n.jpg?oh=920382427ba7c68abe5726990e2dd339&oe=58364098',
+        id: 15,
+    },
     
 ];
 
