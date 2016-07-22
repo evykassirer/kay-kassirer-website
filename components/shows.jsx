@@ -338,6 +338,18 @@ const LIST_OF_SHOWS = [
         image: 'https://scontent-yyz1-1.xx.fbcdn.net/v/t1.0-9/13645295_935384909903440_603828627364549639_n.jpg?oh=920382427ba7c68abe5726990e2dd339&oe=58364098',
         id: 15,
     },
+    {
+        startDate: moment("August 8 16 7 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "Human Experience featuring Kay Kassirer",
+        location: "Hop Nuts Brewing - 1120 S Main St, Ste 150, Las Vegas, Nevada",
+        linkToEvent: "https://www.facebook.com/events/1093721864029427/",
+        blurb: `Come join us at The Human Experience, Las Vegas' longest running weekly open mic.
+        Bring your words, instruments, beats, jokes, or just your wonderful self, and join our Human
+        Experience community! // 21+ // Free // 6:30pm sign up // 7:00pm open mic start`,
+        image: 'https://scontent-yyz1-1.xx.fbcdn.net/t31.0-8/13669420_1034292089941885_6891007103373071983_o.jpg',
+        id: 16,
+    },
     
 ];
 
