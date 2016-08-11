@@ -350,6 +350,18 @@ const LIST_OF_SHOWS = [
         image: 'https://scontent-yyz1-1.xx.fbcdn.net/t31.0-8/13669420_1034292089941885_6891007103373071983_o.jpg',
         id: 16,
     },
+    {
+        startDate: moment("August 15 16 4 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "Word Church featuring Kay Kassirer",
+        location: "Santa Cruz Food Lounge - 1001 Center St, Ste 1, Santa Cruz, California",
+        linkToEvent: "https://www.facebook.com/events/1093721864029427/",
+        blurb: `4:00pm - Free Writing Workshop // 5:00pm - Legendary Collective Community Check-In // 
+                5:30pm - Sign Up List opens (also Food is Served!!) // 6:00pm - Poetry Begins!!!!! //
+                7:15pm - This Week's Featured Reader ~ Kay Kassirer // entrance by donation, all money goes to Kay`,
+        image: 'https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/11988779_1716760371879495_3958066578436902824_n.jpg?oh=bb3566c57cb759731ae6df7fbccaa6b9&oe=581F1ECA',
+        id: 17,
+    },
     
 ];
 
