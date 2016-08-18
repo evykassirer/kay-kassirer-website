@@ -362,7 +362,19 @@ const LIST_OF_SHOWS = [
         image: 'https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/11988779_1716760371879495_3958066578436902824_n.jpg?oh=bb3566c57cb759731ae6df7fbccaa6b9&oe=581F1ECA',
         id: 17,
     },
-    
+    {
+        startDate: moment("August 20 16 5 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "The Burning Tale: Chapter XVII, featuring Kay Kassirer",
+        location: "Studio Bongiorno - 500 Lincoln St, Santa Clara, California",
+        linkToEvent: "https://www.facebook.com/events/1133347880054950/",
+        blurb: `5–7pm: Mighty Mike McGee will facilitate a writing workshop at Studio Bongiorno for writers of all shapes and sizes.
+        Admission is $5 and is split between the venue and the facilitator. // 
+        7–9pm: Potluck & open-mic sign-up. Bring a dish and mingle! //
+        9–11:59+ — The Burning Tale: Chapter XVII. Admission is $5. Featuring special guest, Kay Kassirer`,
+        image: 'https://scontent.fsnc1-1.fna.fbcdn.net/t31.0-8/13925969_621462974683005_3990412832183405669_o.jpg',
+        id: 17,
+    },
 ];
 
 module.exports = Shows;
