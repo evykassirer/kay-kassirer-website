@@ -375,6 +375,45 @@ const LIST_OF_SHOWS = [
         image: 'https://scontent.fsnc1-1.fna.fbcdn.net/t31.0-8/13925969_621462974683005_3990412832183405669_o.jpg',
         id: 17,
     },
+    {
+        startDate: moment("September 22 16 8 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "Tongues of Fire featuring Kay Kassirer",
+        location: "Wheelies Motorcycles & Cafe -  2620 Rock Bay Ave, Victoria, BC",
+        linkToEvent: "https://www.facebook.com/events/1598083047150883/",
+        blurb: `Tongues of Fire is our twice monthly spoken word open mic with a feature performance.
+        There are 12 spots on the open mic and each performer gets 5 minutes maximum. Sign up for the open mic is
+        at 7:30pm and the show starts at 8pm. Suggested donation: $6-10 sliding scale.`,
+        image: 'https://pbs.twimg.com/profile_images/3350544597/dd64754a96f03f1d48d7d2d7b9ff0e2a_400x400.jpeg',
+        id: 18,
+    },
+    {
+        startDate: moment("September 11 16 6:30 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "Portland Poetry Slam featuring Kay Kassirer",
+        location: "Portland Center Stage at The Armory - 128 NW 11th Ave Portland, OR",
+        linkToEvent: "https://www.facebook.com/events/1200766623298778/",
+        blurb: `6:30 PM/suggested donation $5/Portland Center Stage/all ages --- also Where Are You Press is
+        running a FREE, OPEN TO THE PUBLIC writing workshop before every slam! It is at 5 PM - you come to Portland
+        Center Stage and ask the concierge and you get to go to a fancy hidden room and have interesting and educational
+        discussions and prompts about writing and how to do it bigger, weirder, better.`,
+        image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/10416585_10152188577417793_6383848504610993430_n.jpg?oh=c0280912c7e8cee386b1efd28c4d0505&oe=5839224A',
+        id: 19,
+    },
+    {
+        startDate: moment("September 6 16 7:30 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "Seattle Poetry Slam presents the first WOWPS Qualifier!",
+        location: "Seattle Poetry Slam - 1114 Howell St, Seattle, Washington",
+        linkToEvent: "https://www.facebook.com/events/1322413457798688/",
+        blurb: `Doors @ 7pm, Show @ 7:30pm // a DOUBLE feature: Marshall "Gripp" Gillson and Kay Kassirer // an open mic
+        (OPEN to ALL Poets) // and the first Woman of the World Poetry Slam Qualifier!  // $5 // 21 + ID required //
+        **Competition at WOWps is limited to poets who live their lives as women. Qualified poets include female assigned
+        or identified individuals who are PSi members and are 18+ years of age, including gender
+        non-conforming individuals.**`,
+        image: 'https://scontent-lga3-1.xx.fbcdn.net/t31.0-8/14053791_1773725279563844_3030242262007278413_o.jpg',
+        id: 20,
+    },
 ];
 
 module.exports = Shows;
