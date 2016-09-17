@@ -145,7 +145,7 @@ const LIST_OF_SHOWS = [
         title: "Canadian Individual Poetry Slam",
         location: "Vancouver",
         linkToEvent: "http://versesfestival.ca/about-verses/poetry-slam/",
-        blurb: `Kay competed as one of 40 poets from across the nation 
+        blurb: `Kay competed as one of 40 poets from across the nation
             in a large-scale national event to determine the best slammer
             in Canada. They performed on the finals stage and placed 8th!
             CIPS is sponsored by SpoCan (Spoken Word Canada),
@@ -159,13 +159,13 @@ const LIST_OF_SHOWS = [
         title: "KAY Kassirer, ALAIN Ginsberg, Basura BABY, Cecily Schuler, Eunb1!poetry @ Holy Underground",
         location: "Holy Underground, 2021 Maryland Ave, Baltimore, Maryland",
         linkToEvent: "https://www.facebook.com/events/1112998162100890/",
-        blurb: `$5 show, Canada is real far away! 
-            Doors at 9, show will start at 930! 
-            Might do like one smoke break? but also show up on time because this is 
-            Not To Be Missed. --- 
+        blurb: `$5 show, Canada is real far away!
+            Doors at 9, show will start at 930!
+            Might do like one smoke break? but also show up on time because this is
+            Not To Be Missed. ---
             ACCESSIBILITY NOTICE: There is a short set of stairs to enter the building,
             and chairs will be available once inside. If you need assistance with the stairs let Alain Ginsberg know and they will help you.`,
-        image: 'https://scontent-yyz1-1.xx.fbcdn.net/v/t1.0-9/13254278_10154226035423817_3240621814156479362_n.jpg?oh=441f4b6bb9db64146459595e28b9f53c&oe=57CFA415',
+        image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/13254278_10154226035423817_3240621814156479362_n.jpg?oh=a048662a54e56c7c1a1dbc5a0319dfea&oe=586DD815',
         id: 2,
     },
     {
@@ -174,14 +174,12 @@ const LIST_OF_SHOWS = [
         title: "Regina Word Up! Youth Stage Season Closer ft Kay Kassirer",
         location: "Creative City Centre, 1843 Hamilton St., Regina, Saskatchewan",
         linkToEvent: "https://www.facebook.com/events/189633021372214/",
-        blurb: `From 5:00 pm - 6:00 pm participate in the workshop 
+        blurb: `From 5:00 pm - 6:00 pm participate in the workshop
             "Spoken Word & Mental Health - Writing to survive" presented by feature
             artist Kay Kassirer. From 6:00 pm -7:30 pm we will eat food!  At 7:30
             doors open for Youth Stage which starts around 8.
-            Admission is $5 + GST or PWYC (No one turned away.)
-
- `,
-        image: 'https://scontent-yyz1-1.xx.fbcdn.net/v/t1.0-9/12662585_1048031975239653_2834278996702584976_n.jpg?oh=72b2ea416694d7b83258d2b89d83bde6&oe=57C9852D',
+            Admission is $5 + GST or PWYC (No one turned away.)`,
+        image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/10933751_853644418011744_989745671437084657_n.png?oh=7161cb9e4c6e5a2e7ddbee933b576ed8&oe=583DEAA6',
         id: 3,
     },
     {
@@ -190,7 +188,7 @@ const LIST_OF_SHOWS = [
         title: "Tonight It's Poetry ft. Kay Kassirer",
         location: "The Woods Ale House - 148 2nd Ave North, Saskatoon, Saskatchewan",
         linkToEvent: "https://www.facebook.com/events/1528837284083651/",
-        blurb: `Tonight it's Poetry is Saskatoon's only weekly poetry series. 
+        blurb: `Tonight it's Poetry is Saskatoon's only weekly poetry series.
             This week featuring Kay! $5 // 19+`,
         image: 'https://scontent-yyz1-1.xx.fbcdn.net/t31.0-8/13483135_672549602897119_8573873878527753570_o.png',
         id: 4,
@@ -204,7 +202,7 @@ const LIST_OF_SHOWS = [
         blurb: `Capturing Fire is the only international Queer Spoken Word Slam.
             In its 6th year, The literary event showcases poets from North America
             and The United Kingdom. Kay placed second and was the Queer Cookie Slam Champion.`,
-        image: 'https://scontent-yyz1-1.xx.fbcdn.net/v/t1.0-9/13322106_868846463221297_5038961779873045723_n.jpg?oh=e488fc1bc7111fb277680732facfc152&oe=57D42BAE',
+        image: 'https://duncantarmstrong.files.wordpress.com/2015/01/fire.jpg',
         id: 5,
     },
     {
@@ -213,11 +211,11 @@ const LIST_OF_SHOWS = [
         title: "Throw Poetry Collective July Slam - Featuring Kay Kassirer",
         location: "Le Divan Orange - 4234 Boulevard Saint-Laurent, Montreal, Quebec",
         linkToEvent: "https://www.facebook.com/events/1750362858569324/",
-        blurb: `Sign up for the open mic and competition starts at 7, 
-            the show starts at 8. All competing poets must have two poems. 
+        blurb: `Sign up for the open mic and competition starts at 7,
+            the show starts at 8. All competing poets must have two poems.
             Entry is $5 for Students and members of the Quebec Writers Federation;
             $7 for everyone else. `,
-        image: 'https://scontent-yyz1-1.xx.fbcdn.net/v/t1.0-9/1385869_647470928609196_882802125_n.jpg?oh=44be28c0b0f672315d3cf31f53aea664&oe=57CA006F',
+        image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/13495090_1145420682147549_2061438658706155183_n.jpg?oh=5ba66a138e34770e66ed662d2db76589&oe=58850BC8',
         id: 6,
     },
     {
@@ -229,7 +227,7 @@ const LIST_OF_SHOWS = [
         blurb: `The St. Catharines POETRY SLAM is a monthly competitive spoken word event.
             Doors @ 7:30 pm // $5 // Open mic @ 8pm followed by a 2 round slam with
             Kay featuring between rounds. `,
-        image: 'https://scontent-yyz1-1.xx.fbcdn.net/v/t1.0-9/13502054_10153781568777635_3597850132156999287_n.jpg?oh=ec444f3b299d91c54128f8bd655ba940&oe=57D2E345',
+        image: 'https://static.youcaring.com/api/uploads/fundraisers/640475/de7a000b-8701-403c-85cb-4ccffeb29e27_profile.jpg',
         id: 7,
     },
     {
@@ -239,9 +237,9 @@ const LIST_OF_SHOWS = [
         location: "45 Queen St, Oshawa, Ontario - in the auditorium of the Arts Resource ",
         linkToEvent: "https://www.facebook.com/events/247143885658618/",
         blurb: `Come on down to Spoken Weird Open Mic & Poetry Slam to help kick off the
-            summer right. This month, featuring the fantastical Kay Kassirer! 
+            summer right. This month, featuring the fantastical Kay Kassirer!
             // Open mic // Slam starts @ 6:30pm // Cover: $6`,
-        image: 'https://scontent-yyz1-1.xx.fbcdn.net/v/t1.0-9/13428623_1037278893007126_7971140840243997270_n.jpg?oh=a696728b7a0e74be67796f0c8e85bac5&oe=57D468FF',
+        image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/13428623_1037278893007126_7971140840243997270_n.jpg?oh=739405f23f5a351fcbc8d2dbc78af5be&oe=58729CFF',
         id: 8,
     },
     {
@@ -252,7 +250,7 @@ const LIST_OF_SHOWS = [
         linkToEvent: "https://www.facebook.com/events/950791465037620/",
         blurb: `The WordSpell Collective runs the only series bringing together
             talented established and emerging trans/cis women and gender non-binary
-            spoken word artists on a recurring basis in Toronto. 
+            spoken word artists on a recurring basis in Toronto.
             // Doors: open at 7 pm | Open Mic (open to all women and gender non-binary
                 folks) sign up at 7:30 | Show at 8 // Tickets at door: $6 and up (cash)
             // ALL ages & genders welcome in the audience!`,
@@ -265,9 +263,9 @@ const LIST_OF_SHOWS = [
         title: "Shab-e She'r (Poetry Night) XLII feat. Kay Kassirer & John Portelli ",
         location: "Beit Zatoun - 612 Markham St, Toronto, Ontario",
         linkToEvent: "https://www.facebook.com/events/620619974765278/",
-        blurb: `The most diverse poetry reading and open mic in Toronto 
+        blurb: `The most diverse poetry reading and open mic in Toronto
                 At Shab-e She’r (Poetry Night) we don’t just wait for diversity to
-                happen: we actively invite it. // Doors open 6:15 p.m. // 
+                happen: we actively invite it. // Doors open 6:15 p.m. //
                 Open-mic sign-up 6:30 p.m. // Show 7 p.m. // Admission: $5`,
         image: 'http://beitzatoun.org/wp-content/uploads/2014/05/XVIII-Poster-B-1.jpg',
         id: 10,
@@ -356,7 +354,7 @@ const LIST_OF_SHOWS = [
         title: "Word Church featuring Kay Kassirer",
         location: "Santa Cruz Food Lounge - 1001 Center St, Ste 1, Santa Cruz, California",
         linkToEvent: "https://www.facebook.com/events/1093721864029427/",
-        blurb: `4:00pm - Free Writing Workshop // 5:00pm - Legendary Collective Community Check-In // 
+        blurb: `4:00pm - Free Writing Workshop // 5:00pm - Legendary Collective Community Check-In //
                 5:30pm - Sign Up List opens (also Food is Served!!) // 6:00pm - Poetry Begins!!!!! //
                 7:15pm - This Week's Featured Reader ~ Kay Kassirer // entrance by donation, all money goes to Kay`,
         image: 'https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/11988779_1716760371879495_3958066578436902824_n.jpg?oh=bb3566c57cb759731ae6df7fbccaa6b9&oe=581F1ECA',
@@ -369,7 +367,7 @@ const LIST_OF_SHOWS = [
         location: "Studio Bongiorno - 500 Lincoln St, Santa Clara, California",
         linkToEvent: "https://www.facebook.com/events/1133347880054950/",
         blurb: `5–7pm: Mighty Mike McGee will facilitate a writing workshop at Studio Bongiorno for writers of all shapes and sizes.
-        Admission is $5 and is split between the venue and the facilitator. // 
+        Admission is $5 and is split between the venue and the facilitator. //
         7–9pm: Potluck & open-mic sign-up. Bring a dish and mingle! //
         9–11:59+ — The Burning Tale: Chapter XVII. Admission is $5. Featuring special guest, Kay Kassirer`,
         image: 'https://scontent.fsnc1-1.fna.fbcdn.net/t31.0-8/13925969_621462974683005_3990412832183405669_o.jpg',
@@ -413,6 +411,34 @@ const LIST_OF_SHOWS = [
         non-conforming individuals.**`,
         image: 'https://scontent-lga3-1.xx.fbcdn.net/t31.0-8/14053791_1773725279563844_3030242262007278413_o.jpg',
         id: 20,
+    },
+    {
+        startDate: moment("September 15 16 6:45 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "Slamapalooza September 2016 - Featuring Kay Kassirer",
+        location: "KSA GrassRoots Cafe - 12666 72nd Avenue, Surrey, British Columbia",
+        linkToEvent: "https://www.facebook.com/events/620730448102203/",
+        blurb: `The new semester has started and so begins the new season of Slamapalooza!
+        Come join us for our September SEASON OPENER! As always the slam will consist of two
+        3 minute rounds separated by a performance by our amazing feature performer Kay Kassirer!
+        Signup for the slam happen from 6:30pm-7:15pm.
+        The cafe and washrooms are wheelchair accessible, however the stage is not.`,
+        image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/10443360_10152433815722768_3230317547320504308_n.jpg?oh=f414fd647ad7e90bd965d5bc622edb88&oe=583A8637',
+        id: 21,
+    },
+    {
+        startDate: moment("September 19 16 7:00 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "Kay Kassirer features at the Van Slam",
+        location: "Cafe Deux Soleils - 2096 Commercial Drive, Vancouver, British Columbia",
+        linkToEvent: "https://www.facebook.com/events/657478454408982/",
+        blurb: `A two-minute round of 12 poets, a one-minute round of 6 poets,
+        and then a four-minute round of 3 poets. Cut from below, clean slate each round.
+        Cafe Deux Soleils and the Van Slam strive to be a trans friendly place and a hate speech
+        free zone. Help us with that. We also acknowledge that this event takes place on unceded
+        First Nations Territory // cash ONLY // Get there before 7pm if you want a seat or want to slam`,
+        image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/11046497_10153389999245450_1136118491117114332_n.jpg?oh=f5a0768099af0c6709a389011663f00b&oe=583A208D',
+        id: 22,
     },
 ];
 
