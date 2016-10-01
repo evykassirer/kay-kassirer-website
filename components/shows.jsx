@@ -440,6 +440,33 @@ const LIST_OF_SHOWS = [
         image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/11046497_10153389999245450_1136118491117114332_n.jpg?oh=f5a0768099af0c6709a389011663f00b&oe=583A208D',
         id: 22,
     },
+    {
+        startDate: moment("October 12 16", "MMMM DD YY"),
+        endDate: moment("October 15 16", "MMMM DD YY"),
+        title: "Individual World Poetry Slam",
+        location: "Flagstaff, AZ",
+        linkToEvent: "http://iwps.poetryslam.com/",
+        blurb: `The Individual World Poetry Slam is a four day poetry slam
+        festival created by PSi giving poets the opportunity to compete outside
+        of a team competition for the title of the Individual World Poetry Slam
+        Champion. The event will bring world acclaimed feature performers,
+        poetry and performance workshops, specialty slams, open mics, and events
+        for all ages to Flagstaff, AZ.`,
+        image: 'https://scontent-lga3-1.xx.fbcdn.net/t31.0-8/13767254_1033053813436848_3291862825680207589_o.jpg',
+        id: 23,
+    },
+    {
+        startDate: moment("October 23 16", "MMMM DD YY"),
+        endDate: moment("October 30 16", "MMMM DD YY"),
+        title: "Canadian Festival of Spoken Word",
+        location: "Winnipeg, Manitoba",
+        linkToEvent: "http://cfsw.ca/",
+        blurb: `From Oct 23-30 the biggest poetry slam tournament in the country,
+        featuring 22 teams from Halifax to Victoria, will be held amongst a week
+        of showcases, workshops and parties.  `,
+        image: 'http://victoriaeventcentre.ca/wp-content/uploads/2014/02/10689463_355236511299156_2340740808886682990_n-300x300.jpg',
+        id: 24,
+    },
 ];
 
 module.exports = Shows;
