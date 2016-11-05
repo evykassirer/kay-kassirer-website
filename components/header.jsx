@@ -23,7 +23,7 @@ const Header = React.createClass({
                 href="/about">About</a>*/}
             <a className={css(ST.pageName,
                               ST.headerElement,
-                              this.props.page === "shows" && ST.selected)} 
+                              this.props.page === "shows" && ST.selected)}
                 href="/shows">Shows</a>
             <a className={css(ST.pageName,
                               ST.headerElement,
@@ -33,6 +33,10 @@ const Header = React.createClass({
                                   ST.headerElement,
                                   this.props.page === "merch" && ST.selected)}
                 href="/merch">Merch</a>
+            <a className={css(ST.pageName,
+                                 ST.headerElement,
+                                 this.props.page === "gallery" && ST.selected)}
+               href="/gallery">Gallery</a>
         </div>;
     }
 });
