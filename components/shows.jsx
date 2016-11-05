@@ -449,9 +449,9 @@ const LIST_OF_SHOWS = [
         blurb: `The Individual World Poetry Slam is a four day poetry slam
         festival created by PSi giving poets the opportunity to compete outside
         of a team competition for the title of the Individual World Poetry Slam
-        Champion. The event will bring world acclaimed feature performers,
+        Champion. The event brings world acclaimed feature performers,
         poetry and performance workshops, specialty slams, open mics, and events
-        for all ages to Flagstaff, AZ.`,
+        for all ages to Flagstaff, AZ. Kay came 25th out of 96 poets.`,
         image: 'https://scontent-lga3-1.xx.fbcdn.net/t31.0-8/13767254_1033053813436848_3291862825680207589_o.jpg',
         id: 23,
     },
