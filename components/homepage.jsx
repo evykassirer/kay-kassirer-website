@@ -30,25 +30,25 @@ const Page = React.createClass({
             <div className={css(ST.pageContent)}>
             <img src="images/Kay-banner.jpg" className={css(ST.banner)}/>
             <div className={css(ST.iconGroup)}>
-                <Icon 
-                    imageName="facebook.png" 
+                <Icon
+                    imageName="facebook.png"
                     linkTo="https://www.facebook.com/kay.kassirer"
                 />
-                <Icon 
-                    imageName="twitter.png" 
+                <Icon
+                    imageName="twitter.png"
                     linkTo="https://twitter.com/queerkay"
                 />
-                <Icon 
-                    imageName="youtube.png" 
+                <Icon
+                    imageName="youtube.png"
                     linkTo="http://youtube.com/queerkay"
                 />
-                <Icon 
-                    imageName="email.png" 
+                <Icon
+                    imageName="email.png"
                     linkTo="malito:kay.kassirer@gmail.com"
                 />
             </div>
             <span className={css(ST.bio)}>
-                Kay Kassirer is a Toronto based spoken word poet and activist.
+                Kay Kassirer is a Vancouver based spoken word poet and activist.
                 They use their poetry to tell stories, educate people, and
                 heal. Kay can be found leading workshops, frequenting poetry
                 slams, or stuck in a tree. Kay was a member of the 2015 Toronto
