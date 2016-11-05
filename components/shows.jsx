@@ -471,7 +471,7 @@ const LIST_OF_SHOWS = [
     {
         startDate: moment("November 5 16 7:00 PM", "MMMM DD YY h:mm A"),
         endDate: null,
-        title: "2016 Cascadia Regional Poetry Slam featuring Kay",
+        title: "2016 Cascadia Regional Poetry Slam",
         location: "5608 Rainier Ave S, Seattle, Washington",
         linkToEvent: "https://www.facebook.com/events/1749495215310429/permalink/1771405956452688/",
         blurb: `The Cascadia Regional Poetry Slam brings together teams from all
