@@ -463,7 +463,7 @@ const LIST_OF_SHOWS = [
         linkToEvent: "http://cfsw.ca/",
         blurb: `From Oct 23-30 the biggest poetry slam tournament in the country,
         featuring 22 teams from Halifax to Victoria, will be held amongst a week
-        of showcases, workshops and parties. Kay competed in the final round at
+        of showcases, workshops and parties. Kay made it to the final round at
         Underground Indies/NUPIC.`,
         image: 'http://victoriaeventcentre.ca/wp-content/uploads/2014/02/10689463_355236511299156_2340740808886682990_n-300x300.jpg',
         id: 24,
