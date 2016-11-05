@@ -10,6 +10,16 @@ const Header = React.createClass({
         page: RP.string,
     },
 
+    componentWillMount() {
+        const script = document.createElement("script");
+
+        script.src = "scripts/analytics.js"
+
+        script.async = true;
+
+        document.body.appendChild(script);
+    },
+
     render: function() {
         return <div className={css(ST.headerBar)}>
             <a className={css(ST.name, ST.headerElement)} href="/">Kay Kassirer</a>
