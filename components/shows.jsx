@@ -463,9 +463,21 @@ const LIST_OF_SHOWS = [
         linkToEvent: "http://cfsw.ca/",
         blurb: `From Oct 23-30 the biggest poetry slam tournament in the country,
         featuring 22 teams from Halifax to Victoria, will be held amongst a week
-        of showcases, workshops and parties.  `,
+        of showcases, workshops and parties. Kay competed in the final round at
+        Underground Indies/NUPIC.`,
         image: 'http://victoriaeventcentre.ca/wp-content/uploads/2014/02/10689463_355236511299156_2340740808886682990_n-300x300.jpg',
         id: 24,
+    },
+    {
+        startDate: moment("November 5 16 7:00 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "2016 Cascadia Regional Poetry Slam featuring Kay",
+        location: "5608 Rainier Ave S, Seattle, Washington",
+        linkToEvent: "https://www.facebook.com/events/1749495215310429/permalink/1771405956452688/",
+        blurb: `The Cascadia Regional Poetry Slam brings together teams from all
+        over the Northwest to compete in a tournament of the region's finest performance poetry. `,
+        image: 'https://scontent-lga3-1.xx.fbcdn.net/t31.0-8/14889846_1816460598568448_3545980412224497031_o.jpg',
+        id: 25,
     },
 ];
 
