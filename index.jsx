@@ -8,7 +8,8 @@ const HomePage = require('./components/homepage.jsx');
 const About = require('./components/about.jsx');
 const Shows = require('./components/shows.jsx');
 const Youtube = require('./components/youtube.jsx');
-
+const Merch = require('./components/merch.jsx');
+const Gallery = require('./components/gallery.jsx');
 
 ReactDOM.render((
   <Router history={browserHistory}>
@@ -16,6 +17,8 @@ ReactDOM.render((
     <Route name="about" path="/about" component={About}/>
     <Route name="shows" path="/shows" component={Shows}/>
     <Route name="youtube" path="/youtube" component={Youtube}/>
+    <Route name="merch" path="/merch" component={Merch}/>
+    <Route name="gallery" path="/gallery" component={Gallery}/>
     <Route name="default" path="*" component={HomePage}/>
   </Router>
 ), document.getElementById("content"))

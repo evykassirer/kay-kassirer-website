@@ -30,31 +30,33 @@ const Page = React.createClass({
             <div className={css(ST.pageContent)}>
             <img src="images/Kay-banner.jpg" className={css(ST.banner)}/>
             <div className={css(ST.iconGroup)}>
-                <Icon 
-                    imageName="facebook.png" 
+                <Icon
+                    imageName="facebook.png"
                     linkTo="https://www.facebook.com/kay.kassirer"
                 />
-                <Icon 
-                    imageName="twitter.png" 
+                <Icon
+                    imageName="twitter.png"
                     linkTo="https://twitter.com/queerkay"
                 />
-                <Icon 
-                    imageName="youtube.png" 
+                <Icon
+                    imageName="youtube.png"
                     linkTo="http://youtube.com/queerkay"
                 />
-                <Icon 
-                    imageName="email.png" 
+                <Icon
+                    imageName="email.png"
                     linkTo="malito:kay.kassirer@gmail.com"
                 />
             </div>
             <span className={css(ST.bio)}>
-                Kay Kassirer is a Toronto based spoken word poet and activist.
+                Kay Kassirer is a Vancouver based spoken word poet and activist.
                 They use their poetry to tell stories, educate people, and
-                heal. Kay can be found leading workshops, frequenting local
-                poetry slams, or stuck in a tree. Kay was a member of the 2015
-                Toronto Poetry Slam Team, and continues to travel
-                internationally with their words. Kay has a chapbook published
-                by We Flip Tables Press entitled Confessions of a Queer.
+                heal. Kay can be found leading workshops, frequenting poetry
+                slams, or stuck in a tree. Kay was a member of the 2015 Toronto
+                Poetry Slam Team and made it to final stage at the 2016 Canadian
+                Individual Poetry Slam. Kay came in 2nd at Capturing Fire 2016,
+                the International Queer Poetry Slam, and continues to travel the
+                world with their words. Kay has a chapbook published by We Flip
+                Tables Press entitled Confessions of a Queer.
             </span>
             </div>
         </div>;

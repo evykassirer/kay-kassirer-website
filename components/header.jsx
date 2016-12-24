@@ -10,6 +10,16 @@ const Header = React.createClass({
         page: RP.string,
     },
 
+    componentWillMount() {
+        const script = document.createElement("script");
+
+        script.src = "scripts/analytics.js"
+
+        script.async = true;
+
+        document.body.appendChild(script);
+    },
+
     render: function() {
         return <div className={css(ST.headerBar)}>
             <a className={css(ST.name, ST.headerElement)} href="/">Kay Kassirer</a>
@@ -17,22 +27,26 @@ const Header = React.createClass({
                               ST.headerElement,
                               this.props.page === "home" && ST.selected)}
                 href="/">Home</a>
-            <a className={css(ST.pageName,
+{/*}            <a className={css(ST.pageName,
                               ST.headerElement,
                               this.props.page === "about" && ST.selected)}
-                href="/about">About</a>
+                href="/about">About</a>*/}
             <a className={css(ST.pageName,
                               ST.headerElement,
-                              this.props.page === "shows" && ST.selected)} 
+                              this.props.page === "shows" && ST.selected)}
                 href="/shows">Shows</a>
             <a className={css(ST.pageName,
                               ST.headerElement,
                               this.props.page === "youtube" && ST.selected)}
                 href="/youtube">YouTube</a>
-                <a className={css(ST.pageName,
+             <a className={css(ST.pageName,
                                   ST.headerElement,
                                   this.props.page === "merch" && ST.selected)}
-                href="/">Merch</a>
+                href="/merch">Merch</a>
+            <a className={css(ST.pageName,
+                                 ST.headerElement,
+                                 this.props.page === "gallery" && ST.selected)}
+               href="/gallery">Gallery</a>
         </div>;
     }
 });
