@@ -38,7 +38,7 @@ const Show = React.createClass({
             </div>
             <div className={css(ST.blurbBox)}>
                 <image
-                    src={details.image.startsWith("http") ? details.image : 'images/shows/' + details.image}
+                    src={'images/shows/' + details.image}
                     className={css(ST.eventIcon)}
                 />
                 <span className={css(ST.eventBlurb)}>{details.blurb}</span>
@@ -165,7 +165,7 @@ const LIST_OF_SHOWS = [
             Not To Be Missed. ---
             ACCESSIBILITY NOTICE: There is a short set of stairs to enter the building,
             and chairs will be available once inside. If you need assistance with the stairs let Alain Ginsberg know and they will help you.`,
-        image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/13254278_10154226035423817_3240621814156479362_n.jpg?oh=a048662a54e56c7c1a1dbc5a0319dfea&oe=586DD815',
+        image: 'snake.jpg',
         id: 2,
     },
     {
@@ -179,7 +179,7 @@ const LIST_OF_SHOWS = [
             artist Kay Kassirer. From 6:00 pm -7:30 pm we will eat food!  At 7:30
             doors open for Youth Stage which starts around 8.
             Admission is $5 + GST or PWYC (No one turned away.)`,
-        image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/10933751_853644418011744_989745671437084657_n.png?oh=7161cb9e4c6e5a2e7ddbee933b576ed8&oe=583DEAA6',
+        image: 'regina_word_up.jpg',
         id: 3,
     },
     {
@@ -190,7 +190,7 @@ const LIST_OF_SHOWS = [
         linkToEvent: "https://www.facebook.com/events/1528837284083651/",
         blurb: `Tonight it's Poetry is Saskatoon's only weekly poetry series.
             This week featuring Kay! $5 // 19+`,
-        image: 'https://scontent-yyz1-1.xx.fbcdn.net/t31.0-8/13483135_672549602897119_8573873878527753570_o.png',
+        image: 'TIP.png',
         id: 4,
     },
     {
@@ -202,7 +202,7 @@ const LIST_OF_SHOWS = [
         blurb: `Capturing Fire is the only international Queer Spoken Word Slam.
             In its 6th year, The literary event showcases poets from North America
             and The United Kingdom. Kay placed second and was the Queer Cookie Slam Champion.`,
-        image: 'https://duncantarmstrong.files.wordpress.com/2015/01/fire.jpg',
+        image: 'capturing_fire.jpg',
         id: 5,
     },
     {
@@ -215,7 +215,7 @@ const LIST_OF_SHOWS = [
             the show starts at 8. All competing poets must have two poems.
             Entry is $5 for Students and members of the Quebec Writers Federation;
             $7 for everyone else. `,
-        image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/13495090_1145420682147549_2061438658706155183_n.jpg?oh=5ba66a138e34770e66ed662d2db76589&oe=58850BC8',
+        image: 'throw_poetry.jpg',
         id: 6,
     },
     {
@@ -227,7 +227,7 @@ const LIST_OF_SHOWS = [
         blurb: `The St. Catharines POETRY SLAM is a monthly competitive spoken word event.
             Doors @ 7:30 pm // $5 // Open mic @ 8pm followed by a 2 round slam with
             Kay featuring between rounds. `,
-        image: 'https://static.youcaring.com/api/uploads/fundraisers/640475/de7a000b-8701-403c-85cb-4ccffeb29e27_profile.jpg',
+        image: 'stcatherines.jpg',
         id: 7,
     },
     {
@@ -239,7 +239,7 @@ const LIST_OF_SHOWS = [
         blurb: `Come on down to Spoken Weird Open Mic & Poetry Slam to help kick off the
             summer right. This month, featuring the fantastical Kay Kassirer!
             // Open mic // Slam starts @ 6:30pm // Cover: $6`,
-        image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/13428623_1037278893007126_7971140840243997270_n.jpg?oh=739405f23f5a351fcbc8d2dbc78af5be&oe=58729CFF',
+        image: 'spoken_weird.jpg',
         id: 8,
     },
     {
@@ -254,7 +254,7 @@ const LIST_OF_SHOWS = [
             // Doors: open at 7 pm | Open Mic (open to all women and gender non-binary
                 folks) sign up at 7:30 | Show at 8 // Tickets at door: $6 and up (cash)
             // ALL ages & genders welcome in the audience!`,
-        image: 'https://pbs.twimg.com/profile_images/2725509143/bba42a63b4a18094f02a1004a82dc14d_400x400.png',
+        image: 'wordspell.png',
         id: 9,
     },
     {
@@ -267,7 +267,7 @@ const LIST_OF_SHOWS = [
                 At Shab-e She’r (Poetry Night) we don’t just wait for diversity to
                 happen: we actively invite it. // Doors open 6:15 p.m. //
                 Open-mic sign-up 6:30 p.m. // Show 7 p.m. // Admission: $5`,
-        image: 'http://beitzatoun.org/wp-content/uploads/2014/05/XVIII-Poster-B-1.jpg',
+        image: 'Shab-e-Sher.jpg',
         id: 10,
     },
     {
@@ -292,7 +292,7 @@ const LIST_OF_SHOWS = [
             yourself and your mental health as Kay leads us in a series of writing
             exercises. Come prepared to hear some heavy stories, and share your own
             if you'd like. All skill levels welcome.`,
-        image: 'http://kaykassirer.com/images/Kay-banner.jpg',
+        image: 'workshop.jpg',
         id: 12,
     },
     {
@@ -305,7 +305,7 @@ const LIST_OF_SHOWS = [
         creative weirdos to converge for the verbal wizardry we call a poetry show!
         // Doors at 7:30pm // Show at 8pm // Admission: $12/pay what you can
         // All ages!`,
-        image: 'https://scontent-yyz1-1.xx.fbcdn.net/t31.0-8/13497696_10101468320656241_4002979172575316259_o.jpg',
+        image: 'the_poetry_show.jpg',
         id: 13,
     },
     {
@@ -319,7 +319,7 @@ const LIST_OF_SHOWS = [
         understand ourselves and others. Come prepared to hear some personal stories, and
         share your own if you’d like. All skill levels welcome. Just bring a pen/paper and
         your lovely selves. // Admission is $10/pay what you can`,
-        image: 'http://kaykassirer.com/images/Kay-banner.jpg',
+        image: 'workshop.jpg',
         id: 14,
     },
     {
@@ -333,7 +333,7 @@ const LIST_OF_SHOWS = [
         celebrate and try to pull off our BIGGEST SHOW EVER the best way we know how:
         With a Slam Competition! // 3 min time limit // 3 rounds // show is free //
         competing poets pay $5 to go towards the cash prize!`,
-        image: 'https://scontent-yyz1-1.xx.fbcdn.net/v/t1.0-9/13645295_935384909903440_603828627364549639_n.jpg?oh=920382427ba7c68abe5726990e2dd339&oe=58364098',
+        image: 'loud_mouth.jpg',
         id: 15,
     },
     {
@@ -345,7 +345,7 @@ const LIST_OF_SHOWS = [
         blurb: `Come join us at The Human Experience, Las Vegas' longest running weekly open mic.
         Bring your words, instruments, beats, jokes, or just your wonderful self, and join our Human
         Experience community! // 21+ // Free // 6:30pm sign up // 7:00pm open mic start`,
-        image: 'https://scontent-yyz1-1.xx.fbcdn.net/t31.0-8/13669420_1034292089941885_6891007103373071983_o.jpg',
+        image: 'human_experience.jpg',
         id: 16,
     },
     {
@@ -353,11 +353,11 @@ const LIST_OF_SHOWS = [
         endDate: null,
         title: "Word Church featuring Kay Kassirer",
         location: "Santa Cruz Food Lounge - 1001 Center St, Ste 1, Santa Cruz, California",
-        linkToEvent: "https://www.facebook.com/events/1093721864029427/",
+        linkToEvent: "https://www.facebook.com/events/485358481665466/",
         blurb: `4:00pm - Free Writing Workshop // 5:00pm - Legendary Collective Community Check-In //
                 5:30pm - Sign Up List opens (also Food is Served!!) // 6:00pm - Poetry Begins!!!!! //
                 7:15pm - This Week's Featured Reader ~ Kay Kassirer // entrance by donation, all money goes to Kay`,
-        image: 'https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/11988779_1716760371879495_3958066578436902824_n.jpg?oh=bb3566c57cb759731ae6df7fbccaa6b9&oe=581F1ECA',
+        image: 'word_church.jpg',
         id: 17,
     },
     {
@@ -370,8 +370,8 @@ const LIST_OF_SHOWS = [
         Admission is $5 and is split between the venue and the facilitator. //
         7–9pm: Potluck & open-mic sign-up. Bring a dish and mingle! //
         9–11:59+ — The Burning Tale: Chapter XVII. Admission is $5. Featuring special guest, Kay Kassirer`,
-        image: 'https://scontent.fsnc1-1.fna.fbcdn.net/t31.0-8/13925969_621462974683005_3990412832183405669_o.jpg',
-        id: 17,
+        image: 'burning_tale.jpg',
+        id: 18,
     },
     {
         startDate: moment("September 22 16 8 PM", "MMMM DD YY h:mm A"),
@@ -382,8 +382,8 @@ const LIST_OF_SHOWS = [
         blurb: `Tongues of Fire is our twice monthly spoken word open mic with a feature performance.
         There are 12 spots on the open mic and each performer gets 5 minutes maximum. Sign up for the open mic is
         at 7:30pm and the show starts at 8pm. Suggested donation: $6-10 sliding scale.`,
-        image: 'https://pbs.twimg.com/profile_images/3350544597/dd64754a96f03f1d48d7d2d7b9ff0e2a_400x400.jpeg',
-        id: 18,
+        image: 'tof.jpeg',
+        id: 19,
     },
     {
         startDate: moment("September 11 16 6:30 PM", "MMMM DD YY h:mm A"),
@@ -395,8 +395,8 @@ const LIST_OF_SHOWS = [
         running a FREE, OPEN TO THE PUBLIC writing workshop before every slam! It is at 5 PM - you come to Portland
         Center Stage and ask the concierge and you get to go to a fancy hidden room and have interesting and educational
         discussions and prompts about writing and how to do it bigger, weirder, better.`,
-        image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/10416585_10152188577417793_6383848504610993430_n.jpg?oh=c0280912c7e8cee386b1efd28c4d0505&oe=5839224A',
-        id: 19,
+        image: 'portland.jpg',
+        id: 20,
     },
     {
         startDate: moment("September 6 16 7:30 PM", "MMMM DD YY h:mm A"),
@@ -409,8 +409,8 @@ const LIST_OF_SHOWS = [
         **Competition at WOWps is limited to poets who live their lives as women. Qualified poets include female assigned
         or identified individuals who are PSi members and are 18+ years of age, including gender
         non-conforming individuals.**`,
-        image: 'https://scontent-lga3-1.xx.fbcdn.net/t31.0-8/14053791_1773725279563844_3030242262007278413_o.jpg',
-        id: 20,
+        image: 'seattle_wowps.jpg',
+        id: 21,
     },
     {
         startDate: moment("September 15 16 6:45 PM", "MMMM DD YY h:mm A"),
@@ -423,8 +423,8 @@ const LIST_OF_SHOWS = [
         3 minute rounds separated by a performance by our amazing feature performer Kay Kassirer!
         Signup for the slam happen from 6:30pm-7:15pm.
         The cafe and washrooms are wheelchair accessible, however the stage is not.`,
-        image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/10443360_10152433815722768_3230317547320504308_n.jpg?oh=f414fd647ad7e90bd965d5bc622edb88&oe=583A8637',
-        id: 21,
+        image: 'slam-a-palooza.jpg',
+        id: 22,
     },
     {
         startDate: moment("September 19 16 7:00 PM", "MMMM DD YY h:mm A"),
@@ -437,8 +437,8 @@ const LIST_OF_SHOWS = [
         Cafe Deux Soleils and the Van Slam strive to be a trans friendly place and a hate speech
         free zone. Help us with that. We also acknowledge that this event takes place on unceded
         First Nations Territory // cash ONLY // Get there before 7pm if you want a seat or want to slam`,
-        image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/11046497_10153389999245450_1136118491117114332_n.jpg?oh=f5a0768099af0c6709a389011663f00b&oe=583A208D',
-        id: 22,
+        image: 'vps.jpg',
+        id: 23,
     },
     {
         startDate: moment("October 12 16", "MMMM DD YY"),
@@ -452,8 +452,8 @@ const LIST_OF_SHOWS = [
         Champion. The event brings world acclaimed feature performers,
         poetry and performance workshops, specialty slams, open mics, and events
         for all ages to Flagstaff, AZ. Kay came 25th out of 96 poets.`,
-        image: 'https://scontent-lga3-1.xx.fbcdn.net/t31.0-8/13767254_1033053813436848_3291862825680207589_o.jpg',
-        id: 23,
+        image: 'iwps.jpg',
+        id: 24,
     },
     {
         startDate: moment("October 23 16", "MMMM DD YY"),
@@ -465,8 +465,8 @@ const LIST_OF_SHOWS = [
         featuring 22 teams from Halifax to Victoria, will be held amongst a week
         of showcases, workshops and parties. Kay made it to the final round at
         Underground Indies/NUPIC.`,
-        image: 'http://victoriaeventcentre.ca/wp-content/uploads/2014/02/10689463_355236511299156_2340740808886682990_n-300x300.jpg',
-        id: 24,
+        image: 'cfsw.jpg',
+        id: 25,
     },
     {
         startDate: moment("November 5 16 7:00 PM", "MMMM DD YY h:mm A"),
@@ -476,8 +476,21 @@ const LIST_OF_SHOWS = [
         linkToEvent: "https://www.facebook.com/events/1749495215310429/permalink/1771405956452688/",
         blurb: `The Cascadia Regional Poetry Slam brings together teams from all
         over the Northwest to compete in a tournament of the region's finest performance poetry. `,
-        image: 'https://scontent-lga3-1.xx.fbcdn.net/t31.0-8/14889846_1816460598568448_3545980412224497031_o.jpg',
-        id: 25,
+        image: 'cascadia.jpg',
+        id: 26,
+    },
+    {
+        startDate: moment("January 5 17 6:00 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "Slamlandia! Open Mic and Poetry Slam w/ Kay Kassirer Spotlight!",
+        location: "2211 SE Hawthorne Blvd, Portland, Oregon 97214",
+        linkToEvent: "https://www.facebook.com/events/1253478781357278/",
+        blurb: `Doors are at 6. Show at 6:30.
+                Sign ups are also at 6 and it is first come, first serve.
+                Get there on time to get a spot in the open mic or slam!
+                There is a $0-1 suggested donation.`,
+        image: 'slamandia.jpg',
+        id: 26,
     },
 ];
 
