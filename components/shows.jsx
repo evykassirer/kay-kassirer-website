@@ -477,21 +477,34 @@ const LIST_OF_SHOWS = [
         blurb: `The Cascadia Regional Poetry Slam brings together teams from all
         over the Northwest to compete in a tournament of the region's finest performance poetry. `,
         image: 'cascadia.jpg',
-        id: 26,
+        id: 27,
     },
     {
         startDate: moment("January 5 17 6:00 PM", "MMMM DD YY h:mm A"),
         endDate: null,
         title: "Slamlandia! Open Mic and Poetry Slam w/ Kay Kassirer Spotlight!",
-        location: "2211 SE Hawthorne Blvd, Portland, Oregon 97214",
+        location: "2211 SE Hawthorne Blvd, Portland, Oregon",
         linkToEvent: "https://www.facebook.com/events/1253478781357278/",
         blurb: `Doors are at 6. Show at 6:30.
                 Sign ups are also at 6 and it is first come, first serve.
                 Get there on time to get a spot in the open mic or slam!
                 There is a $0-1 suggested donation.`,
         image: 'slamandia.jpg',
-        id: 26,
+        id: 28,
     },
+    {
+        startDate: moment("May 4 17 6:00 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "Olympia People's Mic feat. Kay Kassirer",
+        location: "Ben Moore's Restaurant - 112 4th Ave W, Olympia, Washington",
+        linkToEvent: "https://www.facebook.com/events/652455218212837/",
+        blurb: `Sign-ups for the open mic and slam start at 6pm; show starts at
+        6:30 pm. We charge a $0-5 cover fee to pay our feature.
+        www.oldgrowthpoetrycollective.org`,
+        image: 'olympia.jpg',
+        id: 29,
+    },
+
 ];
 
 module.exports = Shows;
