@@ -8,137 +8,20 @@ const RP = React.PropTypes;
 
 const Header = require("./header.jsx");
 
-const Show = React.createClass({
-    propTypes: {
-        details: RP.shape({
-            startDate: RP.any.required,
-            endDate: RP.any,
-            title: RP.string.required,
-            location: RP.string.required,
-            linkToEvent: RP.string.required,
-            blurb: RP.string.required,
-            image: RP.string.required,
-            id: RP.number.required,
-        })
-    },
-    render: function() {
-        const details = this.props.details;
-        return <div className={css(ST.oneShow)}>
-            <a href={details.linkToEvent} className={css(ST.eventTitle)}>
-                {details.title}
-            </a>
-            <div className={css(ST.timeAndPlace)}>
-                <span className={css(ST.boldText)}>When:</span> {details.endDate ?
-                    details.startDate.format("MMM D") + " to " +
-                        details.endDate.format("MMM D, YYYY") :
-                    details.startDate.format("MMM D, YYYY @ h:mm A")}
-            </div>
-            <div className={css(ST.timeAndPlace)}>
-                <span className={css(ST.boldText)}>Where: </span> {details.location}
-            </div>
-            <div className={css(ST.blurbBox)}>
-                <image
-                    src={'images/shows/' + details.image}
-                    className={css(ST.eventIcon)}
-                />
-                <span className={css(ST.eventBlurb)}>{details.blurb}</span>
-            </div>
-        </div>;
-    },
-})
-
-const Shows = React.createClass({
-    render: function() {
-        const upcomingShows = LIST_OF_SHOWS.filter(function(e) {
-            if (e.endDate) {
-                return e.endDate.isSameOrAfter(moment());
-            }
-            return e.startDate.isSameOrAfter(moment());
-        }).sort(function(a, b) {
-            if (a.startDate.isBefore(b.startDate)) {
-                return -1;
-            } else if (b.startDate.isBefore(a.startDate)) {
-                return 1;
-            }
-            return 0;
-        });
-
-        const pastShows = LIST_OF_SHOWS.filter(function(e) {
-            if (e.endDate) {
-                return e.endDate.isBefore(moment());
-            }
-            return e.startDate.isBefore(moment());
-        }).sort(function(a, b) {
-            if (a.startDate.isBefore(b.startDate)) {
-                return 1;
-            } else if (b.startDate.isBefore(a.startDate)) {
-                return -1;
-            }
-            return 0;
-        });
-        console.log("upcoming!", upcomingShows);
-
-        return <div className={css(ST.page)}>
-            <Header page="shows"/>
-            <div className={css(ST.pageContent)}>
-                <div className={css(ST.showsHeader)}>UPCOMING SHOWS</div>
-                {upcomingShows.map(function(result) {
-                    return <Show details={result} key={result.id}/>;
-                })}
-                <div className={css(ST.showsHeader)}>PAST SHOWS</div>
-                {pastShows.map(function(result) {
-                    return <Show details={result} key={result.id}/>;
-                })}
-            </div>
-        </div>;
-    }
-});
-
-const ST = StyleSheet.create({
-    page : {
-        width: "100%",
-    },
-    pageContent: {
-        paddingTop: "70px",
-        width: "730px",
-        margin: "0 auto",
-    },
-    eventTitle: {
-        fontSize: "25px",
-    },
-    blurbBox: {
-        marginTop: "20px",
-    },
-    eventBlurb: {
-        display: "inline-block",
-        fontSize: "16px",
-        lineHeight: 1.5,
-        marginLeft: "30px",
-        verticalAlign: "middle",
-        width: "50%",
-    },
-    eventIcon: {
-        maxWidth: "40%",
-        verticalAlign: "middle",
-    },
-    oneShow: {
-        margin: "20px",
-    },
-    timeAndPlace: {
-        marginTop: "10px",
-    },
-    boldText: {
-        fontWeight: "bold",
-    },
-    showsHeader: {
-        color: SS.colors.teal.light,
-        fontSize: "30px",
-        fontWeight: "bold",
-        margin: "20px",
-    },
-});
-
 const LIST_OF_SHOWS = [
+    {
+        startDate: moment("March 15 17", "MMMM DD YY"),
+        endDate: moment("March 18 17", "MMMM DD YY"),
+        title: "Women of the World Poetry Slam 2017",
+        location: "Dallas, TX",
+        linkToEvent: "http://www.wowps2017.com/",
+        blurb: `Kay will be volunteering at WOWPS | a performance poetry tournament
+        designed for individual competition. The top poets will go on to finals
+        to compete for the title of, The 2017 Women of the World Champion!
+`,
+        image: 'wowps17.jpeg',
+        id: 32,
+    },
     {
         startDate: moment("April 27 16", "MMMM DD YY"),
         endDate: moment("April 30 16", "MMMM DD YY"),
@@ -528,16 +411,138 @@ const LIST_OF_SHOWS = [
         image: 'fort_worth.jpg',
         id: 31,
     },
-    {
-        startDate: moment("March 12 17", "MMMM DD YY"),
-        endDate: null,
-        title: "Women's Only Poetry Slam",
-        location: "Tribeca - 907 Houston Street, Fort Worth TX",
-        linkToEvent: "https://www.facebook.com/Tribeca-FORT-WORTH-472964279406621/",
-        blurb: `$15 admission`,
-        image: 'tribecca.jpg',
-        id: 32,
-    },
 ];
+
+
+
+const Show = React.createClass({
+    propTypes: {
+        details: RP.shape({
+            startDate: RP.any.required,
+            endDate: RP.any,
+            title: RP.string.required,
+            location: RP.string.required,
+            linkToEvent: RP.string.required,
+            blurb: RP.string.required,
+            image: RP.string.required,
+            id: RP.number.required,
+        })
+    },
+    render: function() {
+        const details = this.props.details;
+        return <div className={css(ST.oneShow)}>
+            <a href={details.linkToEvent} className={css(ST.eventTitle)}>
+                {details.title}
+            </a>
+            <div className={css(ST.timeAndPlace)}>
+                <span className={css(ST.boldText)}>When:</span> {details.endDate ?
+                    details.startDate.format("MMM D") + " to " +
+                        details.endDate.format("MMM D, YYYY") :
+                    details.startDate.format("MMM D, YYYY @ h:mm A")}
+            </div>
+            <div className={css(ST.timeAndPlace)}>
+                <span className={css(ST.boldText)}>Where: </span> {details.location}
+            </div>
+            <div className={css(ST.blurbBox)}>
+                <image
+                    src={'images/shows/' + details.image}
+                    className={css(ST.eventIcon)}
+                />
+                <span className={css(ST.eventBlurb)}>{details.blurb}</span>
+            </div>
+        </div>;
+    },
+})
+
+const Shows = React.createClass({
+    render: function() {
+        const upcomingShows = LIST_OF_SHOWS.filter(function(e) {
+            if (e.endDate) {
+                return e.endDate.isSameOrAfter(moment());
+            }
+            return e.startDate.isSameOrAfter(moment());
+        }).sort(function(a, b) {
+            if (a.startDate.isBefore(b.startDate)) {
+                return -1;
+            } else if (b.startDate.isBefore(a.startDate)) {
+                return 1;
+            }
+            return 0;
+        });
+
+        const pastShows = LIST_OF_SHOWS.filter(function(e) {
+            if (e.endDate) {
+                return e.endDate.isBefore(moment());
+            }
+            return e.startDate.isBefore(moment());
+        }).sort(function(a, b) {
+            if (a.startDate.isBefore(b.startDate)) {
+                return 1;
+            } else if (b.startDate.isBefore(a.startDate)) {
+                return -1;
+            }
+            return 0;
+        });
+        console.log("upcoming!", upcomingShows);
+
+        return <div className={css(ST.page)}>
+            <Header page="shows"/>
+            <div className={css(ST.pageContent)}>
+                <div className={css(ST.showsHeader)}>UPCOMING SHOWS</div>
+                {upcomingShows.map(function(result) {
+                    return <Show details={result} key={result.id}/>;
+                })}
+                <div className={css(ST.showsHeader)}>PAST SHOWS</div>
+                {pastShows.map(function(result) {
+                    return <Show details={result} key={result.id}/>;
+                })}
+            </div>
+        </div>;
+    }
+});
+
+const ST = StyleSheet.create({
+    page : {
+        width: "100%",
+    },
+    pageContent: {
+        paddingTop: "70px",
+        width: "730px",
+        margin: "0 auto",
+    },
+    eventTitle: {
+        fontSize: "25px",
+    },
+    blurbBox: {
+        marginTop: "20px",
+    },
+    eventBlurb: {
+        display: "inline-block",
+        fontSize: "16px",
+        lineHeight: 1.5,
+        marginLeft: "30px",
+        verticalAlign: "middle",
+        width: "50%",
+    },
+    eventIcon: {
+        maxWidth: "40%",
+        verticalAlign: "middle",
+    },
+    oneShow: {
+        margin: "20px",
+    },
+    timeAndPlace: {
+        marginTop: "10px",
+    },
+    boldText: {
+        fontWeight: "bold",
+    },
+    showsHeader: {
+        color: SS.colors.teal.light,
+        fontSize: "30px",
+        fontWeight: "bold",
+        margin: "20px",
+    },
+});
 
 module.exports = Shows;
