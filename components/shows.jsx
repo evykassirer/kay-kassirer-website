@@ -504,7 +504,40 @@ const LIST_OF_SHOWS = [
         image: 'olympia.jpg',
         id: 29,
     },
-
+    {
+        startDate: moment("January 22 17", "MMMM DD YY "),
+        endDate: moment("January 24 17", "MMMM DD YY "),
+        title: "Queer Resurgence on Capitol Hill",
+        location: "Capitol Hill in Seattle",
+        linkToEvent: "http://www.queerpoetrycapitolhill.org/",
+        blurb: `Kay competed and made it to the finals stage // "A three day
+        all-ages poetry festival and competition open to those who identify as
+        LGBTQ in the neighborhood of Capitol Hill in Seattle.  With the recent
+        changes in the city, we are committed to reclaiming the neighborhood
+        that was once Queer and bringing art back into Capitol Hill."`,
+        image: 'queer_resurgence.png',
+        id: 30,
+    },
+    {
+        startDate: moment("March 14 17 8:00 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "Weekly Real Talk Poetry and Spoken Word feat. Kay Kassirer",
+        location: "Tribeca - 907 Houston Street, Fort Worth TX",
+        linkToEvent: "https://www.facebook.com/Tribeca-FORT-WORTH-472964279406621/",
+        blurb: ``,
+        image: 'fort_worth.jpg',
+        id: 31,
+    },
+    {
+        startDate: moment("March 12 17", "MMMM DD YY"),
+        endDate: null,
+        title: "Women's Only Poetry Slam",
+        location: "Tribeca - 907 Houston Street, Fort Worth TX",
+        linkToEvent: "https://www.facebook.com/Tribeca-FORT-WORTH-472964279406621/",
+        blurb: `$15 admission`,
+        image: 'tribecca.jpg',
+        id: 32,
+    },
 ];
 
 module.exports = Shows;
