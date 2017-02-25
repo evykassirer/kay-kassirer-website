@@ -42,7 +42,8 @@ const Header = React.createClass({
              <a className={css(ST.pageName,
                                   ST.headerElement,
                                   this.props.page === "merch" && ST.selected)}
-                href="/merch">Merch</a>
+                href="https://www.etsy.com/ca/shop/KayKassirerMerch"
+                target="_blank" >Merch</a>
             <a className={css(ST.pageName,
                                  ST.headerElement,
                                  this.props.page === "gallery" && ST.selected)}
