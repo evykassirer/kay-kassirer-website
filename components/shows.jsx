@@ -10,6 +10,26 @@ const Header = require("./header.jsx");
 
 const LIST_OF_SHOWS = [
     {
+        startDate: moment("March 24 17 9:00 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "BattleBorn Slam featuring Kay Kassirer",
+        location: "PublicUs Coffee Shop - 1126 Fremont St, Las Vegas, NV",
+        linkToEvent: "https://www.facebook.com/battleborn.slam",
+        blurb: `Show is all ages, 7-9 pm, $5.00 donation.`,
+        image: 'battleborn.jpeg',
+        id: 34,
+    },
+    {
+        startDate: moment("March 22 17 8:00 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "FlagSlam featuring Kay Kassirer",
+        location: "FireCreek Coffee Company - 22 Historic Route 66, Flagstaff, AZ",
+        linkToEvent: "https://www.facebook.com/flagstaffpoetryslam/",
+        blurb: `Every Wednesday - Signup at 7:00, Starts at 8:00!`,
+        image: 'flagslam.jpg',
+        id: 33,
+    },
+    {
         startDate: moment("March 15 17", "MMMM DD YY"),
         endDate: moment("March 18 17", "MMMM DD YY"),
         title: "Women of the World Poetry Slam 2017",
@@ -17,8 +37,7 @@ const LIST_OF_SHOWS = [
         linkToEvent: "http://www.wowps2017.com/",
         blurb: `Kay will be volunteering at WOWPS | a performance poetry tournament
         designed for individual competition. The top poets will go on to finals
-        to compete for the title of, The 2017 Women of the World Champion!
-`,
+        to compete for the title of, The 2017 Women of the World Champion!`,
         image: 'wowps17.jpeg',
         id: 32,
     },
