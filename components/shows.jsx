@@ -10,6 +10,24 @@ const Header = require("./header.jsx");
 
 const LIST_OF_SHOWS = [
     {
+        startDate: moment("March 29 17 7:30 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "Punk in Drublic Poetry I",
+        location: "The Old Pint Pot - 2 Adelphi Street, Salford, UK",
+        linkToEvent: "https://www.facebook.com/events/708215936022449/",
+        blurb: `Want to help prevent homelessnes? Not adverse to chortling at
+        punchlines and poems? We've just the thing...
+        PUNK IN DRUBLIC POETRY is a new night where stand up comedy and
+        performance poetry violently clash. It's door takings (£6) go to Mustard Tree,
+         a wonderful group who are helping alleviate and eliminate the plight of
+         Manchester's homeless. To bolster out charitable endeavours further-
+         We'll be holding a charity raffle with prizes from The Comedy Store -
+         Manchester, Zymurgorium Manchester Gin, The Old Pint Pot + more generous
+         folks. `,
+        image: 'drublic.jpg',
+        id: 35,
+    },
+    {
         startDate: moment("March 24 17 9:00 PM", "MMMM DD YY h:mm A"),
         endDate: null,
         title: "BattleBorn Slam featuring Kay Kassirer",
@@ -20,11 +38,11 @@ const LIST_OF_SHOWS = [
         id: 34,
     },
     {
-        startDate: moment("March 22 17 8:00 PM", "MMMM DD YY h:mm A"),
+        startDate: moment("March 22 17 7:30 PM", "MMMM DD YY h:mm A"),
         endDate: null,
         title: "FlagSlam featuring Kay Kassirer",
         location: "FireCreek Coffee Company - 22 Historic Route 66, Flagstaff, AZ",
-        linkToEvent: "https://www.facebook.com/flagstaffpoetryslam/",
+        linkToEvent: "https://www.facebook.com/events/1361444450569220/",
         blurb: `Every Wednesday - Signup at 7:00, Starts at 8:00!`,
         image: 'flagslam.jpg',
         id: 33,
