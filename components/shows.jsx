@@ -10,6 +10,46 @@ const Header = require("./header.jsx");
 
 const LIST_OF_SHOWS = [
     {
+        startDate: moment("March 21 17 5:30 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "Workshop: Exploring Gender&Sexuality through Spoken Word Poetry",
+        location: "The Hive - 2222 N 16th St, Phoenix, AZ",
+        linkToEvent: "",
+        blurb: `Workshop followed by a short reading`,
+        image: 'uk_workshop.jpg',
+        id: 38,
+    },
+    {
+        startDate: moment("April 2 17 6:30 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "Spoken Word: Kay Kassirer, with Dominic Berry, plus open mic",
+        location: "The Kings Arms - 11 Bloom Street, Salford, UK",
+        linkToEvent: "https://www.facebook.com/events/1794082257582276/",
+        blurb: `A night with a very special, internationally touring guest
+        spoken word poet Kay Kassirer! // plus Manchester's adpoted queer, vegan
+        poet Dominic Berry will be performing his 'No Tigers' show in a special
+        support guest slot // plus short open mic section - 1st come, 1st
+        reserved - email thepoetdominic@hotmail.co.uk to secure an open mic space //
+        suggested donation £5 / £3 / free if you are skint.`,
+        image: 'uk_open_mic.jpg',
+        id: 37,
+    },
+    {
+        startDate: moment("April 2 17 2 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "Workshop: Exploring Gender&Sexuality through Spoken Word Poetry",
+        location: "The Wonder Inn: 29 Shudehill, Manchester, UK",
+        linkToEvent: "https://www.facebook.com/events/340206769714282/",
+        blurb: `Delve into your identity as we write about our experiences with
+        gender and sexuality.  Kay Kassirer will lead us through writing
+        exercises to help us better understand ourselves and others. Come
+        prepared to hear some personal stories, and share your own if you’d
+        like. All skill levels welcome. Just bring a pen/paper and your lovely
+        selves. suggested donation £5 / £3 / free if you are skint.`,
+        image: 'uk_workshop.jpg',
+        id: 36,
+    },
+    {
         startDate: moment("March 29 17 7:30 PM", "MMMM DD YY h:mm A"),
         endDate: null,
         title: "Punk in Drublic Poetry I",
