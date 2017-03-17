@@ -55,8 +55,7 @@ const Page = React.createClass({
                 Poetry Slam Team and made it to final stage at the 2016 Canadian
                 Individual Poetry Slam. Kay came in 2nd at Capturing Fire 2016,
                 the International Queer Poetry Slam, and continues to travel the
-                world with their words. Kay has a chapbook published by We Flip
-                Tables Press entitled Confessions of a Queer.
+                world with their words.
             </span>
             </div>
         </div>;
