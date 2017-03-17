@@ -10,6 +10,57 @@ const Header = require("./header.jsx");
 
 const LIST_OF_SHOWS = [
     {
+        startDate: moment("April 1 17 3 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "Workshops: Gender and Sexuality + Mental Health in Spoken Word",
+        location: "iCafe Sauchiehall Street - 315-317 Sauchiehall Street, Glasgow, UK",
+        linkToEvent: "https://www.facebook.com/events/137747370083257/",
+        blurb: `Kay will be hosting two daytime workshops on the 1st of April
+        at the iCafe Sauchiehall Street before their show at the Project Cafe
+        that night!
+
+        Exploring Gender& Sexuality through Spoken Word Poetry (1.5 hours)
+
+        and
+
+        Spoken Word & Mental Health: Writing to Survive (1.5 hours) //
+
+        £10 per person per workshop.
+        Attendees to both worshops will be given free entry to see Kay at
+        The Project Cafe the same night.
+        Advance tickets will be available from Friday 17th March`,
+        image: 'glasgow.jpg',
+        id: 41,
+    },
+    {
+        startDate: moment("April 11 17 6:30 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "Workshop: Exploring Gender&Sexuality through Spoken Word Poetry",
+        location: "Mazalino - Reinwardtstraat 44, Amsterdam, Netherlands",
+        linkToEvent: "https://www.facebook.com/events/1089185751193457/",
+        blurb: `Delve into your identity as we write about our experiences with
+        gender and sexuality.  Kay Kassirer will lead us through writing
+        exercises to help us better understand ourselves and others. Come
+        prepared to hear some personal stories, and share your own if you’d
+        like. All skill levels welcome. Just bring a pen/paper and your lovely
+        selves.`,
+        image: 'mazalino.jpg',
+        id: 40,
+    },
+    {
+        startDate: moment("April 1 17 7:30 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "Kay Kassirer UK Tour - w/ support from Age-Otori and Syd Briscoe",
+        location: "The Project Cafe - 134 Renfrew Street, Glasgow, UK",
+        linkToEvent: "https://www.facebook.com/events/1980036825572901/",
+        blurb: `Come one, come all! Poetry and Music at the Project Cafe //
+        For one night only in Glasgow, Kay will be perfoming a feature length
+        set, with support from the wonderful Age-otori and Syd Briscoe. //
+        £5 full price / £3 concession. BYOB - £2 corckage.`,
+        image: 'glasgow.jpg',
+        id: 39,
+    },
+    {
         startDate: moment("March 21 17 5:30 PM", "MMMM DD YY h:mm A"),
         endDate: null,
         title: "Workshop: Exploring Gender&Sexuality through Spoken Word Poetry",
