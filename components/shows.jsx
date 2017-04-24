@@ -10,6 +10,27 @@ const Header = require("./header.jsx");
 
 const LIST_OF_SHOWS = [
     {
+        startDate: moment("April 26 17 9:30 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "Mashed Poetics at The Verses Festival: SPICE Girls",
+        location: "1882 Adanac St, Vancouver, BC, Canada",
+        linkToEvent: "https://www.facebook.com/events/126987397837264/",
+        blurb: `
+        Mashed Poetics is a night of spoken word and music mash up. We pick a
+        music album, find a cover band and ask poets to write new poems based on
+        the songs.
+
+        This year we have 10 poets and a 9 piece SPICE GIRLS cover band. //
+
+        Show starts at 9:30. Doors at 9. //
+
+        Tickets are $10 in advance through Brown Paper Tickets here and $12
+        at the door (cash only).
+        Get your advance tickets here: http://mashedpoeticsspice.bpt.me/`,
+        image: 'spice_girls.jpg',
+        id: 42,
+    },
+    {
         startDate: moment("April 1 17 3 PM", "MMMM DD YY h:mm A"),
         endDate: null,
         title: "Workshops: Gender and Sexuality + Mental Health in Spoken Word",
