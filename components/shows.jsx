@@ -10,6 +10,32 @@ const Header = require("./header.jsx");
 
 const LIST_OF_SHOWS = [
     {
+        startDate: moment("June 9 17", "MMMM DD YY"),
+        endDate: moment("June 10 17", "MMMM DD YY"),
+        title: "Capturing Fire - International Queer Poetry Summit & Slam",
+        location: "Washington, DC",
+        linkToEvent: "https://capfireslam.org/",
+        blurb: `Capturing Fire is the only international Queer Spoken Word Slam.
+            In its 6th year, The literary event showcases poets from North America
+            and The United Kingdom.`,
+        image: 'capturing_fire.jpg',
+        id: 44,
+    },
+    {
+        startDate: moment("June 18 17 8:30 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "PoetNY Open Mic ft Kay Kassirer",
+        location: "Bowery Poetry Club - 308 Bowery, New York, NY",
+        linkToEvent: "https://www.facebook.com/events/921611911306486/",
+        blurb: `
+        NYC's Poetry Open Mic, Hosted by Mason Granger.
+        Signups and doors at 8pm. 20, 3-minute slots, first come, first served. //
+        $10 admission. Advance discount tickets: $7
+        http://www.brownpapertickets.com/event/2734821`,
+        image: 'nyc_bowery.jpg',
+        id: 43,
+    },
+    {
         startDate: moment("April 26 17 9:30 PM", "MMMM DD YY h:mm A"),
         endDate: null,
         title: "Mashed Poetics at The Verses Festival: SPICE Girls",
