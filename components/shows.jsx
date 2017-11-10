@@ -586,8 +586,89 @@ const LIST_OF_SHOWS = [
         image: 'fort_worth.jpg',
         id: 31,
     },
+    {
+        startDate: moment("Oct 22 17", "MMMM DD YY"),
+        endDate: moment("Oct 28 17", "MMMM DD YY"),
+        title: "Slam Master at Canadian Festival of Spoken Word 2017",
+        location: "Peterborough, Ontario",
+        linkToEvent: "https://www.facebook.com/events/506471826361842/",
+        blurb: `The Peterborough Poetry Slam, in partnership with Public Energy
+         and Spoken Word Canada are honoured to be hosting the Canadian Festival
+         of Spoken Word (CFSW) this year in Nogojiwanong – Peterborough, Ontario.
+         The festival will bring between 150 and 200 poets from across the country
+         for a week of poetry slams, master classes and feature performances.
+         22 teams form 7 provinces will compete to win the festival's Poetry
+         Slam Tournament and be named Canada's 2017 Champions!`,
+        image: 'cfsw17.png',
+        id: 32,
+    },
+    {
+        startDate: moment("Sept 20 17 7:00 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "UBC Slam - Featuring Kay Kassirer",
+        location: "Benny's Bagels - 2503 W. Broadway, Vancouver, British Columbia",
+        linkToEvent: "https://www.facebook.com/events/125376808192195/",
+        blurb: `The slam is open to ANYONE. Whether you are a student at UBC,
+        80 years old, a high school student, no matter. You are welcome and we
+        are excited to have you! Open mic poems can be any time
+        (please keep under/around 5 minutes.) Poems for the slam are a 3 minute
+        time limit (plus 10 second grace period before points are deducted.)`,
+        image: 'ubcslam.jpg',
+        id: 33,
+    },
+    {
+        startDate: moment("Sept 17 17 5:00 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "Portland Poetry Slam iWPS Finals featuring Kay Kassirer!",
+        location: "Portland Poetry Slam - 1036 NE Alberta, Portland, Oregon",
+        linkToEvent: "https://www.facebook.com/events/179268899285072/",
+        blurb: `It's time to select who will represent Portland at the Individual World Poetry Slam in Spokane Washington.
+        ***No preticketing for this event! Please bring cash to donate
+        at the door to help us get the winning poet to iWPS, or to buy merch
+        from the poets! As always, it's a suggested $0-$5 donation - no one is
+        ever turned away for lack of funds. *****`,
+        image: 'portland_slam.jpg',
+        id: 34,
+    },
+    {
+        startDate: moment("July 17 17 4 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "Word Church featuring Kay Kassirer",
+        location: "Tannery Arts Center - 1050 River Street, Santa Cruz, California",
+        linkToEvent: "https://www.facebook.com/events/494997667521346/",
+        blurb: `4:00pm-- Free Writing Workshop led by Kay Kassirer //
+                5:30pm-- Open Mic Sign-up List goes out //
+                6:00pm-- Poetry begins! //
+                7:00pm-- This Week's Featured Poet: Kay Kassirer`,
+        image: 'word_church.jpg',
+        id: 35,
+    },
+    {
+        startDate: moment("July 12 17 9 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "Mahogany Poetry feat. Kay Kassirer from Canada!",
+        location: "Queen Sheba - 1704 Broadway, Sacramento, California",
+        linkToEvent: "https://www.facebook.com/events/103590200283512/",
+        blurb: `Please join me in welcoming an international poet to our stage!! Let's fill the seats!!
+                Hosted by Khiry Malik and DJ Shonie Shon`,
+        image: 'mahogany.jpg',
+        id: 36,
+    },
+    {
+        startDate: moment("June 24 17 8 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "The TPS double-bill feature -> Kay Kassirer + Rabbit Richards!",
+        location: "The Drake Hotel - 1150 Queen Street West, Toronto, Ontario",
+        linkToEvent: "https://www.facebook.com/events/1939294379624446/",
+        blurb: `Pride Month is here, the Drake has been celebrating Pride all
+         month long, your host Charlie just came back from the LGBTQ literary
+         festival Capturing Fire, and on June 24 we have two incredible features
+         who have been showing their Pride in their respective communities (and beyond)!
+         // doors open at 7 // signup to slam/open mic 730 // show 8 // $7 cover // All ages`,
+        image: 'tps.jpg',
+        id: 37,
+    },
 ];
-
 
 
 const Show = React.createClass({
@@ -658,7 +739,6 @@ const Shows = React.createClass({
             }
             return 0;
         });
-        console.log("upcoming!", upcomingShows);
 
         return <div className={css(ST.page)}>
             <Header page="shows"/>
