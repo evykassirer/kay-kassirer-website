@@ -48,14 +48,17 @@ const Page = React.createClass({
                 />
             </div>
             <span className={css(ST.bio)}>
-                Kay Kassirer is a Vancouver based spoken word poet and activist.
-                They use their poetry to tell stories, educate people, and
-                heal. Kay can be found leading workshops, frequenting poetry
-                slams, or stuck in a tree. Kay was a member of the 2015 Toronto
-                Poetry Slam Team and made it to final stage at the 2016 Canadian
-                Individual Poetry Slam. Kay came in 2nd at Capturing Fire 2016,
-                the International Queer Poetry Slam, and continues to travel the
-                world with their words.
+            <br/>
+            Kay Kassirer (they/them) is a spoken-word poet, organizer, and activist who currently resides on the unceded lands of the Musqueam, Squamish, and Tseil-Waututh First Nations.
+            <br/> <br/>
+            Kay has taken the North American poetry community by storm. This past year alone, they not only took on the role of Festival Director for SpoCan’s official youth poetry slam “Voices of Today,” but also stepped up as assistant slam master for the Canadian Festival of Spoken word.
+            <br/> <br/>
+            Notably, Kay was the 2016 Capturing Fire rep for Hot Damn! It's a Queer Slam, and went on to take second in the festival. Kay has performed on numerous other final stages, including CFSW 2015 (the Canadian Festival of Spoken Word), CIPS 2016 and 2017 (the Canadian Individual Poetry Slam), & The Queer Resurgence Poetry Slam, Hosted by the Seattle Poetry Slam.
+            <br/> <br/>
+            Education, healing, and community are three amongst many pillars supporting the voice of this established artist, creating an undeniable force for social innovation through literary arts.
+            <br/> <br/>
+            Using their voice to evoke change, Kay can be found facilitating workshops, or presenting as a feature performer throughout the various vibrant North American poetry scenes.
+            <br/> <br/>
             </span>
             </div>
         </div>;
