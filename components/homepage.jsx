@@ -55,7 +55,7 @@ const Page = React.createClass({
             <br/> <br/>
             Notably, Kay was the 2016 Capturing Fire rep for Hot Damn! It's a Queer Slam, and went on to take second in the festival. Kay has performed on numerous other final stages, including CFSW 2015 (the Canadian Festival of Spoken Word), CIPS 2016 and 2017 (the Canadian Individual Poetry Slam), & The Queer Resurgence Poetry Slam, Hosted by the Seattle Poetry Slam.
             <br/> <br/>
-            Education, healing, and community are three amongst many pillars supporting the voice of this established artist, creating an undeniable force for social innovation through literary arts.
+            Education, healing, and community are three amongst many pillars supporting the voice of this artist, creating an undeniable force for social innovation through literary arts.
             <br/> <br/>
             Using their voice to evoke change, Kay can be found facilitating workshops, or presenting as a feature performer throughout the various vibrant North American poetry scenes.
             <br/> <br/>
