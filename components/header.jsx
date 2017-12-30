@@ -37,13 +37,15 @@ const Header = React.createClass({
                 href="/shows">Shows</a>
             <a className={css(ST.pageName,
                               ST.headerElement,
-                              this.props.page === "youtube" && ST.selected)}
-                href="/youtube">YouTube</a>
+                              this.props.page === "poetry" && ST.selected)}
+                href="/poetry">Poetry</a>
+             { /* TODO add this back when etsy has stuff on it again
              <a className={css(ST.pageName,
                                   ST.headerElement,
                                   this.props.page === "merch" && ST.selected)}
                 href="https://www.etsy.com/ca/shop/KayKassirerMerch"
                 target="_blank" >Merch</a>
+            */ }
             <a className={css(ST.pageName,
                                  ST.headerElement,
                                  this.props.page === "gallery" && ST.selected)}
