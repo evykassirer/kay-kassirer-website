@@ -10,6 +10,31 @@ const Header = require("./header.jsx");
 
 const LIST_OF_SHOWS = [
     {
+        startDate: moment("Jan 2 18 7 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "Open Mic at Dreams of Beans Feat. Kay Kassirer and Linette Wade",
+        location: "Dreams of Beans Cafe - 138 Hunter Street W, Peterborough, ON",
+        linkToEvent: "https://www.facebook.com/events/389238018183247/",
+        blurb: `$5-10 (No one will be turned away for lack of funds) //
+            Open Mic followed by Features (i.e. this is not a slam) //
+            Doors: 7:00 p.m. //  Show: 7:30 p.m.`,
+        image: 'comet_tour.jpg',
+        id: 46,
+    },
+    {
+        startDate: moment("Jan 3 18 8 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "WordSpell featuring Sheri-D Wilson, Kay Kassirer & Linette Wade!",
+        location: "Free Times Cafe - 320 College Street, Toronto, ON",
+        linkToEvent: "https://www.facebook.com/events/151814855452662/",
+        blurb: `The WordSpell Collective runs the only series bringing together
+        talented established and emerging trans/cis women and genderqueer spoken
+        word artists on a recurring basis in Toronto. We are thrilled to bring
+        you some of the most brilliant voices in spoken word // Show at 8 // Tickets $6 and up (cash)`,
+        image: 'wordspell2.jpg',
+        id: 45,
+    },
+    {
         startDate: moment("June 9 17", "MMMM DD YY"),
         endDate: moment("June 10 17", "MMMM DD YY"),
         title: "Capturing Fire - International Queer Poetry Summit & Slam",
