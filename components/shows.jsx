@@ -10,6 +10,34 @@ const Header = require("./header.jsx");
 
 const LIST_OF_SHOWS = [
     {
+        startDate: moment("Jan 6 18 6 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "Hot Damn It's a Queer Slam St Catharines feat Kay & Linette",
+        location: "Fine Grind Café - 37 James St, St. Catharines, ON",
+        linkToEvent: "https://www.facebook.com/events/1592704924147359/",
+        blurb: `
+        Thank you St Catharines Poetry Slam for bringing us back.
+        So proud to be having our Season 2 winner Kay Kassirer featuring with
+        the electrifying Linette Wade - we've been so excited for this duo feature!
+        Sign up for the open mic or the 2 round poetry slam. We also provide mardi gras
+        beads for those who would prefer not to be photographed. For more info on our southern
+        ontario circuit, rules and grand prize visit www.queerslam.com - hit, the circuit winner
+        is taken to Capturing Fire the International Queer Summit & Slam in Washington DC!`,
+        image: 'hot_damn_k_l.jpg',
+        id: 48,
+    },
+    {
+        startDate: moment("Jan 3 18 4 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "Workshop : Transcending gender with Kay Kassirer and Linette Wade",
+        location: "Glad Day Bookshop - 499 Church Street, Toronto, ON",
+        linkToEvent: "https://www.facebook.com/events/1592704924147359/",
+        blurb: `Suggested donation $5-$10 //
+        In this workshop, Linette and Kay will lead participants through a series of exercises to help them apply tangible concepts to their individual genders. Through prompts, Linette and Kay will encourage participants to dismantle gender in their writing, and to workshop their writing skills. This workshop will also include a close reading and discussion of poems that Linette and Kay believe best exemplify concepts of gender, and will end with the opportunity for participants to read what they wrote in the workshop, or to share something that they’ve written previously. Bring a writing implement of some kind and yourselves, and come prepared to ~ feel ~! While this workshop is designed to engage gender non conforming people in writing about their gender, cis people are also welcome to attend as long as they respect the space they’re being invited into as spectators and not participants.`,
+        image: 'feather_anchor.jpg',
+        id: 47,
+    },
+    {
         startDate: moment("Jan 2 18 7 PM", "MMMM DD YY h:mm A"),
         endDate: null,
         title: "Open Mic at Dreams of Beans Feat. Kay Kassirer and Linette Wade",
