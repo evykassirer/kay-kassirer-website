@@ -10,6 +10,21 @@ const Header = require("./header.jsx");
 
 const LIST_OF_SHOWS = [
     {
+        startDate: moment("Jan 6 18 3 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "SCPS Poetry Workshop Series ft Kay Kassirer And Linette Wade",
+        location: "To Be Determined (somewhere in St Catherines)",
+        linkToEvent: "https://www.facebook.com/events/576643466011577/",
+        blurb: `
+        New to poetry and want help starting out? Have a bunch of work you've been sitting on and need some help with direction?
+        Been writing and performinh poetry for a while but want to gain some new skills?
+        Come join us for the first of a workshop series we're hoping to make a semi regular fixature for the SCPS scene!
+        This particular workshop will be lead by the amazing Kay Kassirer and the wonderful Linette Wade!
+        Entry: $5 - $10 or PWYC`,
+        image: 'stcatherines.jpg',
+        id: 49,
+    },
+    {
         startDate: moment("Jan 6 18 6 PM", "MMMM DD YY h:mm A"),
         endDate: null,
         title: "Hot Damn It's a Queer Slam St Catharines feat Kay & Linette",
