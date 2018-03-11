@@ -10,6 +10,40 @@ const Header = require("./header.jsx");
 
 const LIST_OF_SHOWS = [
     {
+        startDate: moment("March 27 18 6 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "Word Humboldt Ft. Kay Kassirer",
+        location: "Northtown Coffee - 1603 G St, Arcata, CA",
+        linkToEvent: "https://www.facebook.com/events/1248352848628165/",
+        blurb: `
+        Hottest Spoken Word Open Mic in Humboldt County, California
+        Word Humboldt is a space for you to speak your mind, be heard,
+        be free and enjoy yourself away from the stress of the week.
+        So crack open your notebook, freshen up your freestyle and come join
+        us for a night of spoken word, good times and community at Northtown Coffee!
+       `,
+        image: 'word_humboldt.jpg',
+        id: 51,
+    },
+    {
+        startDate: moment("March 24 18 6 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "The Loud Mouth Death Match Slam! feat. Kay Kassirer!",
+        location: "Howie & Son's Pizza Parlor - 2430 S Mooney Blvd, Visalia, CA",
+        linkToEvent: "https://www.facebook.com/events/751895455015140/",
+        blurb: `
+        We're bringing together 8 poets to enter a bracketed style competition
+        to go head-2-head against their fellow poets! By the end of the night,
+        only two poets shall be left standing, but there can only be 1 Champion!
+        Pajama attire is highly recommended! All competing poets must wear pajamas,
+        or face consequences! Poets who don't wear pajamas are subject to the
+        Wheel of Misery! Along with our Death Match antics, we will have Kay as
+        our special feature! // Cost: $5, $3 w Student ID
+       `,
+        image: 'loud_mouth2.jpg',
+        id: 50,
+    },
+    {
         startDate: moment("Jan 6 18 3 PM", "MMMM DD YY h:mm A"),
         endDate: null,
         title: "SCPS Poetry Workshop Series ft Kay Kassirer And Linette Wade",
