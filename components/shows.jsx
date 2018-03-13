@@ -10,6 +10,18 @@ const Header = require("./header.jsx");
 
 const LIST_OF_SHOWS = [
     {
+        startDate: moment("March 14 18 7:30 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "Poetry Slam ft. Kay Kassirer",
+        location: "Write About Now - 411 Westheimer Rd, Houston, Texas",
+        linkToEvent: "https://www.facebook.com/events/941660595985711/",
+        blurb: `www.wanpoetry.com //
+        Cover: $5 Cash, $6 Card
+       `,
+        image: 'write-about-now.jpg',
+        id: 52,
+    },
+    {
         startDate: moment("March 27 18 6 PM", "MMMM DD YY h:mm A"),
         endDate: null,
         title: "Word Humboldt Ft. Kay Kassirer",
