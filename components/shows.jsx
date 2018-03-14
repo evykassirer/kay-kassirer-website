@@ -10,6 +10,18 @@ const Header = require("./header.jsx");
 
 const LIST_OF_SHOWS = [
     {
+        startDate: moment("March 19 18 7 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "Human Experience feat Kay Kassirer",
+        location: "HumanExperienceLV - 1009 S MAIN STREET, Las Vegas, Nevada",
+        linkToEvent: "https://www.facebook.com/events/1303699903064222/",
+        blurb: `Come join us at The Human Experience, Las Vegas' longest running weekly open mic. Our mission is to be the action of Love through Art, Music, Poetry, and Culture. Bring your words, instruments, beats, jokes, or just your wonderful self, and join our Human Experience community!
+        // FREE EVENT //  21+
+       `,
+        image: 'human_exp_LV.jpg',
+        id: 53,
+    },
+    {
         startDate: moment("March 14 18 7:30 PM", "MMMM DD YY h:mm A"),
         endDate: null,
         title: "Poetry Slam ft. Kay Kassirer",
