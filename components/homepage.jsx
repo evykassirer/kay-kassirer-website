@@ -1,6 +1,5 @@
-const { StyleSheet, css } = require('../lib/aphrodite.js');
-const React = require('react');
-const Router = require('react-router');
+const { StyleSheet, css } = require('../lib/aphrodite.js'); const React =
+require('react'); const Router = require('react-router');
 
 const SS = require('../styles.js');
 
@@ -49,15 +48,15 @@ const Page = React.createClass({
             </div>
             <span className={css(ST.bio)}>
             <br/>
-            Kay Kassirer (they/them) is a spoken-word poet, organizer, and activist who currently resides on the unceded lands of the Musqueam, Squamish, and Tseil-Waututh First Nations.
+            Kay Kassirer (they/them) is a spoken-word poet, organizer, and activist who currently resides on the unceded lands of the Musqueam, Squamish, and Tsleil-Waututh First Nations, colonially known as Vancouver.
             <br/> <br/>
-            Kay has taken the North American poetry community by storm. This past year alone, they not only took on the role of Festival Director for SpoCan’s official youth poetry slam “Voices of Today,” but also stepped up as assistant slam master for the Canadian Festival of Spoken word.
+            Kay has taken the North American poetry community by storm. This past year alone, they not only took on the role of Festival Co-Director for SpoCan’s official youth poetry slam “Voices of Today,” but also stepped up as assistant slam master for the Canadian Festival of Spoken Word.
             <br/> <br/>
-            Notably, Kay was the 2016 Capturing Fire rep for Hot Damn! It's a Queer Slam, and went on to take second in the festival. Kay has performed on numerous other final stages, including CFSW 2015 (the Canadian Festival of Spoken Word), CIPS 2016 and 2017 (the Canadian Individual Poetry Slam), & The Queer Resurgence Poetry Slam, Hosted by the Seattle Poetry Slam.
+            Notably, Kay was the 2016 Capturing Fire rep for Hot Damn! It's a Queer Slam, and went on to take 2nd place in the festival. Kay has performed on numerous other final stages, including CFSW 2015 (the Canadian Festival of Spoken Word), CIPS 2016 and 2017 (the Canadian Individual Poetry Slam), & The Queer Resurgence Poetry Slam, hosted by the Seattle Poetry Slam.
             <br/> <br/>
             Education, healing, and community are three amongst many pillars supporting the voice of this artist, creating an undeniable force for social innovation through literary arts.
             <br/> <br/>
-            Using their voice to evoke change, Kay can be found facilitating workshops, or presenting as a feature performer throughout the various vibrant North American poetry scenes.
+            Using their voice to evoke change, Kay can be found facilitating workshops, organizing poetry events, performing poems, and most likely stuck in a tree.
             <br/> <br/>
             </span>
             </div>
