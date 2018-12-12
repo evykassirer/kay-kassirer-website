@@ -9,6 +9,180 @@ const RP = React.PropTypes;
 const Header = require("./header.jsx");
 
 const LIST_OF_SHOWS = [
+    // {
+    //     startDate: moment("March 19 18 7 PM", "MMMM DD YY h:mm A"),
+    //     endDate: null,
+    //     title: "",
+    //     location: "",
+    //     linkToEvent: "",
+    //     blurb: ``,
+    //     image: '',
+    //     id: ,
+    // },
+    {
+        startDate: moment("July 24 18", "MMMM DD YY"),
+        endDate:  moment("July 28 18", "MMMM DD YY"),
+        title: "Voices of Today",
+        location: "Palmerston Library Theatre, Toronto, Ontario",
+        linkToEvent: "http://voicesoftoday.ca",
+        blurb: `Kay is the Executive Director for Voices of Today,
+        a poetry festival run by youth for youth.`,
+        image: 'vot.png',
+        id: 67,
+    },
+    {
+        startDate: moment("Sep 3 18 7 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "VanSlam Individual Playoffs!",
+        location: "Cafe Deux Soleils - 2096 Commercial Drive, Vancouver, British Columbia",
+        linkToEvent: "https://www.facebook.com/events/473177756535070/",
+        blurb: `Kay won 1st place at Individual Poetry Slam finals in Vancouver,
+        and will be repping Vancouver at Canadian Individual Poetry Slam 2019`,
+        image: 'vps.jpg',
+        id: 66,
+    },
+    {
+        startDate: moment("October 10 18", "MMMM DD YY"),
+        endDate: moment("October 13 18", "MMMM DD YY"),
+        title: "Individual World Poetry Slam",
+        location: "San Diego, CA",
+        linkToEvent: "https://www.iwps2018.com/",
+        blurb: `The Individual World Poetry Slam is a four day poetry slam
+        festival created by PSi giving poets the opportunity to compete outside
+        of a team competition for the title of the Individual World Poetry Slam
+        Champion. Kay competed in this year's IWPS.`,
+        image: 'iwps2018.png',
+        id: 65,
+    },
+    {
+        startDate: moment("June 22 18 7 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "Voices of Today fundraiser ft. yes the poet and the VanSlam team and more",
+        location: "echo house in vancouver",
+        linkToEvent: "https://www.facebook.com/events/219048402220435/",
+        blurb: `Join us on the 22nd at Echo House for a fundraiser in honour of
+        the upcoming festival. With features by: yes the poet / Frankie McGee /
+        Kay Kassirer / Rabbit Richards / jaye simpson`,
+        image: 'vot.png',
+        id: 64,
+    },
+
+    {
+        startDate: moment("Dec 16 18 8 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "Community Stage ft. Kay Kassirer & Jess Tollestrup",
+        location: "Amigos Cantina - 806 Dufferin Avenue, Saskatoon, Saskatchewan",
+        linkToEvent: "https://www.facebook.com/events/257690211558513/",
+        blurb: `$5 // 19+ // No one turned away for lack of funds.
+        // Our double feature is Kay Kassier and Jess Tollestrup!`,
+        image: 'tonightitspoetry.jpg',
+        id: 63,
+    },
+    {
+        startDate: moment("Dec 16 18 2 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "Poetry Workshops! (for all ages!)",
+        location: "Amigos Cantina - 806 Dufferin Avenue, Saskatoon, Saskatchewan",
+        linkToEvent: "https://www.facebook.com/events/1824102577695268/",
+        blurb: `All ages welcome
+        // 2:00 pm Kay Kassirer will help you explore gender and sexuality through your spoken word art!
+        // 3:15 pm Jess Tollestrup will help you mix music and words into something new and exciting!
+        // By donation - $10 per workshop or $15 for both, suggested donation`,
+        image: 'poetryworkshops.jpg',
+        id: 62,
+    },
+    {
+        startDate: moment("Dec 14 18 7:30 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "Regina Word Up Poetry Slam ft Kay Kassirer and Jess Tollestrup",
+        location: "Creative City Centre - 1843 Hamilton St., Regina, Saskatchewan",
+        linkToEvent: "https://www.facebook.com/events/2322389514443550/",
+        blurb: `Youth Stage & All ages Open Mic // Doors 7:30pm // Show 8pm //
+        $10+gst (PWYC) // All Ages`,
+        image: 'reginawordup.jpg',
+        id: 61,
+    },
+    {
+        startDate: moment("Oct 28 18", "MMMM DD YY"),
+        endDate: moment("Nov 3 18", "MMMM DD YY"),
+        title: "15th Annual Canadian Festival of Spoken Word",
+        location: "Guelph, Ontario",
+        linkToEvent: "https://www.facebook.com/events/280177902838164/",
+        blurb: `At CFSW 2018, Kay competed on the VanSlam team, won 1st in both prelims,
+        won 3rd overall, and was re-elected as member at large for the Spoken Word Canada board`,
+        image: 'cfsw17.png',
+        id: 60,
+    },
+    {
+        startDate: moment("September 14 18 7 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "The Vancouver Poetry Slam Fundraiser!",
+        location: "Massy Books - 229 E. Georgia St., Vancouver, British Columbia",
+        linkToEvent: "https://www.facebook.com/events/699829413710715/",
+        blurb: `The Vancouver Poetry Slam Team 2018/2019 is comprised of Rabbit
+        Richards, mitcholos touchie, Kay Kassirer & jaye simpson. In a few short
+        weeks they will be flying to Guelph, Ontario to compete in the Canadian
+        Festival of Spoken Word 2018.`,
+        image: 'vpsfundraiser.jpg',
+        id: 59,
+    },
+    {
+        startDate: moment("July 2 18 7 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "Vancouver Poetry Slam featuring Kay Kassirer!",
+        location: "Cafe Deux Soleils - 2096 Commercial Drive, Vancouver, British Columbia",
+        linkToEvent: "https://www.facebook.com/events/783579622030258/",
+        blurb: `The Summer Season is here.
+        That means it's time to start qualifying for the IWPS Playoffs in September.
+        That also means there will be three rounds of poetry with different time lengths and
+        poets participating.`,
+        image: 'vps.jpg',
+        id: 58,
+    },
+    {
+        startDate: moment("April 26 18", "MMMM DD YY"),
+        endDate: moment("April 27 18", "MMMM DD YY"),
+        title: "Canadian Individual Poetry Slam",
+        location: "Vancouver",
+        linkToEvent: "http://versesfestival.ca/about-verses/poetry-slam/",
+        blurb: `Kay was Venue Captain this year, managing volunteers at each venue`,
+        image: 'cips2018.jpg',
+        id: 57,
+    },
+    {
+        startDate: moment("April 23 18 7 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "2018 Van Slam Team Finals",
+        location: "The Wise Hall & Lounge - 1882 Adanac Street, Vancouver, British Columbia",
+        linkToEvent: "https://www.facebook.com/events/602937626721294/",
+        blurb: `Kay won 2nd place, which secured a place on the 2018 Van Slam Team.
+        The team later came in 3rd at nationals`,
+        image: 'vps.jpg',
+        id: 56,
+    },
+    {
+        startDate: moment("April 5 18 6 PM", "MMMM DD YY h:mm A"),
+        endDate: null,
+        title: "Olympia People's Mic Feat. Kay Kassirer and Semifinal Slam!",
+        location: "Shirro’s Plate - 3432 Cherry Blossom Dr NE, Olympia, Washington",
+        linkToEvent: "https://www.facebook.com/events/1125462677595391/",
+        blurb: `Come see the amazing poets who've competed throughout our season
+        slam again to win places in the grand slam! This week's event will include an
+        open mic, semifinal slam, and feature from Kay Kassirer`,
+        image: 'olympia2.jpg',
+        id: 55,
+    },
+    {
+        startDate: moment("Jan 24 18", "MMMM DD YY"),
+        endDate: null,
+        title: "[Winner of] Vancouver Women of the World Poetry Slam quailfier",
+        location: "The Wise Hall & Lounge - 1882 Adanac Street, Vancouver, British Columbia",
+        linkToEvent: "https://www.facebook.com/events/381516675630511/",
+        blurb: `Kay was the poet with the highest cumulative score and will be this year's
+        Vancouver Women’s Poetry Slam Champion and WOWPS Representative.`,
+        image: 'wowps2018.jpg',
+        id: 54,
+    },
     {
         startDate: moment("March 19 18 7 PM", "MMMM DD YY h:mm A"),
         endDate: null,
@@ -822,15 +996,15 @@ const Show = React.createClass({
                         details.endDate.format("MMM D, YYYY") :
                     details.startDate.format("MMM D, YYYY @ h:mm A")}
             </div>
-            <div className={css(ST.timeAndPlace)}>
+            {details.location && <div className={css(ST.timeAndPlace)}>
                 <span className={css(ST.boldText)}>Where: </span> {details.location}
-            </div>
+            </div>}
             <div className={css(ST.blurbBox)}>
-                <image
+                {details.image && <image
                     src={'images/shows/' + details.image}
                     className={css(ST.eventIcon)}
-                />
-                <span className={css(ST.eventBlurb)}>{details.blurb}</span>
+                />}
+                {details.blurb && <span className={css(ST.eventBlurb)}>{details.blurb}</span>}
             </div>
         </div>;
     },
