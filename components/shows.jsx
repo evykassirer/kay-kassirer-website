@@ -120,9 +120,7 @@ const LIST_OF_SHOWS = [
         location: "Massy Books - 229 E. Georgia St., Vancouver, British Columbia",
         linkToEvent: "https://www.facebook.com/events/699829413710715/",
         blurb: `The Vancouver Poetry Slam Team 2018/2019 is comprised of Rabbit
-        Richards, mitcholos touchie, Kay Kassirer & jaye simpson. In a few short
-        weeks they will be flying to Guelph, Ontario to compete in the Canadian
-        Festival of Spoken Word 2018.`,
+        Richards, mitcholos touchie, Kay Kassirer & jaye simpson.`,
         image: 'vpsfundraiser.jpg',
         id: 59,
     },
@@ -132,10 +130,9 @@ const LIST_OF_SHOWS = [
         title: "Vancouver Poetry Slam featuring Kay Kassirer!",
         location: "Cafe Deux Soleils - 2096 Commercial Drive, Vancouver, British Columbia",
         linkToEvent: "https://www.facebook.com/events/783579622030258/",
-        blurb: `The Summer Season is here.
-        That means it's time to start qualifying for the IWPS Playoffs in September.
-        That also means there will be three rounds of poetry with different time lengths and
-        poets participating.`,
+        blurb: `The Vancouver Poetry Slam has been wowing audiences since 1996,
+        making it the longest-running poetry slam in Canada.
+        It is a program of the non-profit organization, Vancouver Poetry House.`,
         image: 'vps.jpg',
         id: 58,
     },
@@ -145,7 +142,9 @@ const LIST_OF_SHOWS = [
         title: "Canadian Individual Poetry Slam",
         location: "Vancouver",
         linkToEvent: "http://versesfestival.ca/about-verses/poetry-slam/",
-        blurb: `Kay was Venue Captain this year, managing volunteers at each venue`,
+        blurb: `The Canadian Individual Poetry Slam (CIPS) is a dedicated
+        large-scale national event to determine the best slammer in Canada.
+        Kay volunteered as Venue Captain, managing volunteers at preliminary bouts.`,
         image: 'cips2018.jpg',
         id: 57,
     },
@@ -155,8 +154,7 @@ const LIST_OF_SHOWS = [
         title: "2018 Van Slam Team Finals",
         location: "The Wise Hall & Lounge - 1882 Adanac Street, Vancouver, British Columbia",
         linkToEvent: "https://www.facebook.com/events/602937626721294/",
-        blurb: `Kay won 2nd place, which secured a place on the 2018 Van Slam Team.
-        The team later came in 3rd at nationals`,
+        blurb: `Kay competed at the Vancouver Poetry Slam finals, making it onto the 2018 VanSlam team along with Rabbit Richards, mitcholos touchie, and jaye simpson. The team went on to place 3rd at the Canadian Festival of Spoken Word`,
         image: 'vps.jpg',
         id: 56,
     },
