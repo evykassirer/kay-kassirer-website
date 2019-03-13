@@ -43,7 +43,7 @@ const Page = React.createClass({
                 />
                 <Icon
                     imageName="email.png"
-                    linkTo="malito:kay.kassirer@gmail.com"
+                    linkTo="mailto:kay.kassirer@gmail.com"
                 />
             </div>
             <span className={css(ST.bio)}>
