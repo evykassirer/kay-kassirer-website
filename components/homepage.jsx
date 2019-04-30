@@ -48,15 +48,7 @@ const Page = React.createClass({
             </div>
             <span className={css(ST.bio)}>
             <br/>
-            Kay Kassirer (they/them) is a spoken-word poet, organizer, and activist who currently resides on the unceded lands of the Musqueam, Squamish, and Tsleil-Waututh First Nations, colonially known as Vancouver.
-            <br/> <br/>
-            Kay has taken the North American poetry community by storm. This past year alone, they not only took on the role of Festival Co-Director for SpoCan’s official youth poetry slam “Voices of Today,” but also stepped up as assistant slam master for the Canadian Festival of Spoken Word.
-            <br/> <br/>
-            Notably, Kay was the 2016 Capturing Fire rep for Hot Damn! It's a Queer Slam, and went on to take 2nd place in the festival. Kay has performed on numerous other final stages, including CFSW 2015 (the Canadian Festival of Spoken Word), CIPS 2016 and 2017 (the Canadian Individual Poetry Slam), & The Queer Resurgence Poetry Slam, hosted by the Seattle Poetry Slam.
-            <br/> <br/>
-            Education, healing, and community are three amongst many pillars supporting the voice of this artist, creating an undeniable force for social innovation through literary arts.
-            <br/> <br/>
-            Using their voice to evoke change, Kay can be found facilitating workshops, organizing poetry events, performing poems, and most likely stuck in a tree.
+            Kay Kassirer (they/them) is a poet, activist, youth advocate, community organizer, and sex worker. They have toured internationally with the chapbooks Confessions of a Queer and Unbandage the Wounds, and have earned their place on several competitive final stages - notably the Capturing Fire International Queer Slam (2016), the Canadian Individual Poetry Slam (2016, 2017), and the Canadian Festival of Spoken Word where they placed third nationally (2018). Kay currently resides on the unceded lands of the Musqueam, Squamish, and Tsleil-Waututh First Nations - colonially known as Vancouver.
             <br/> <br/>
             </span>
             </div>
