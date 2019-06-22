@@ -21,7 +21,17 @@ const LIST_OF_SHOWS = [
     // },
 
     {
-        startDate: moment("March 6", "MMMM DD YY"),
+        startDate: moment("March 12 19", "MMMM DD YY"),
+        endDate: null,
+        title: "Patreon",
+        location: "Patreon HQ, SF",
+        linkToEvent: "https://patreon.com",
+        blurb: `Kay performed at the Patreon office and sat on a panel of non-binary artists talking about their gender identity and their art.`,
+        image: 'patreon.png',
+        id: 72,
+    },
+    {
+        startDate: moment("March 6 19", "MMMM DD YY"),
         endDate: null,
         title: "Poly Queer Love Ballad",
         location: "425-268 Keefer St (4th floor in the Sun Wah Building), Vancouver, BC",
