@@ -51,35 +51,35 @@ const Poetry = React.createClass({
                             data-count="default">
                         </span>
                     </div>
+
                     <iframe
-                        src="http://www.youtube.com/embed/?listType=user_uploads&list=QueerKay"
-                        className={css(ST.video)}>
-                    </iframe>
-                    <br/>
-                    Canadian Individual Poetry Slam
-                    <iframe
-                        src="https://www.youtube.com/embed/videoseries?list=PLLGnibIm00NbKkXEvK0MPZF0rnKjmKj8O"
-                        className={css(ST.video)}>
-                    </iframe>
-                    <br/>
-                    6th Annual Capturing Fire: The International Queer Spoken Word Poetry Slam
-                    <iframe
-                        src="https://www.youtube.com/embed/videoseries?list=PLLGnibIm00NaJkJsubXQwHhmPC7Yhq_Mo"
-                        className={css(ST.video)}>
-                    </iframe>
-                    <br/>
-                    More Kay:
-                    <iframe
-                        src="https://www.youtube.com/embed/w9J_F1o7MF4"
-                        className={css(ST.video)}
-                        frameborder="0" allowfullscreen>
-                    </iframe>
-                    <iframe
-                        src="https://www.youtube.com/embed/pBWw3jRlQmA"
+                        src="https://www.youtube.com/embed/6Y3ClEfE9gQ"
                         className={css(ST.video)}
                         frameborder="0" allowfullscreen>
                     </iframe>
 
+                    <iframe
+                        src="https://www.youtube.com/embed/HTG9aIw9uvQ"
+                        className={css(ST.video)}
+                        frameborder="0" allowfullscreen>
+                    </iframe>
+
+                    <iframe
+                        src="https://www.youtube.com/embed/Nk30GFeSPCE"
+                        className={css(ST.video)}
+                        frameborder="0" allowfullscreen>
+                    </iframe>
+
+                    <iframe
+                        src="https://www.youtube.com/embed/sJ27dbVHnI0"
+                        className={css(ST.video)}
+                        frameborder="0" allowfullscreen>
+                    </iframe>
+
+                    <iframe
+                        src="https://www.youtube.com/embed/videoseries?list=PLLGnibIm00NbKkXEvK0MPZF0rnKjmKj8O"
+                        className={css(ST.video)}>
+                    </iframe>
                 </div>
             </div>
         </div>;

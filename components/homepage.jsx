@@ -31,11 +31,11 @@ const Page = React.createClass({
             <div className={css(ST.iconGroup)}>
                 <Icon
                     imageName="facebook.png"
-                    linkTo="https://www.facebook.com/kay.kassirer"
+                    linkTo="https://www.facebook.com/KayKassirerPoetry/"
                 />
                 <Icon
                     imageName="twitter.png"
-                    linkTo="https://twitter.com/queerkay"
+                    linkTo="https://twitter.com/kaykassirer"
                 />
                 <Icon
                     imageName="youtube.png"
@@ -48,7 +48,11 @@ const Page = React.createClass({
             </div>
             <span className={css(ST.bio)}>
             <br/>
-            Kay Kassirer (they/them) is a poet, activist, youth advocate, community organizer, and sex worker. They have toured internationally with the chapbooks Confessions of a Queer and Unbandage the Wounds, and have earned their place on several competitive final stages - notably the Capturing Fire International Queer Slam (2016), the Canadian Individual Poetry Slam (2016, 2017), and the Canadian Festival of Spoken Word where they placed third nationally (2018). Kay currently resides on the unceded lands of the Musqueam, Squamish, and Tsleil-Waututh First Nations - colonially known as Vancouver.
+            Kay Kassirer (they/them) is a poet, activist, youth advocate, community organizer, and sex worker. They are author of the chapbooks Confessions of a Queer and Unbandage the Wounds, as well as the curator and editor A Whore’s Manifesto: An Anthology of Art and Writing by Sex Workers.
+            <br/><br/>
+            They have also earned their place on several competitive poetry final stages - notably the Capturing Fire International Queer Slam (2016), the Canadian Festival of Spoken Word (2018), and the Canadian Individual Poetry Slam (2016-2018) wherein they took 3rd place in the Nation in 2019. They have also served their community as a lifelong volunteer as well as leader in the roles of SpeakNorth national slammaster (2019-present) and Executive Director of Voices of Today (2017-present).
+            <br/><br/>
+            Kay currently resides on the unceded lands of the Musqueam, Squamish, and Tsleil-Waututh First Nations - colonially known as Vancouver.
             <br/> <br/>
             </span>
             </div>
