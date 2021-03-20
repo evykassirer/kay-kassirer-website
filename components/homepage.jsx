@@ -48,11 +48,11 @@ const Page = React.createClass({
             </div>
             <span className={css(ST.bio)}>
             <br/>
-            Kay Kassirer (they/them) is a poet, activist, youth advocate, community organizer, and sex worker. They are author of the chapbooks Confessions of a Queer and Unbandage the Wounds, as well as the curator and editor A Whore’s Manifesto: An Anthology of Art and Writing by Sex Workers.
+            Kay Kassirer (they/them) is a spoken word poet, community organizer, and sex worker currently residing on the unceded lands of the Musqueam, Squamish, and Tsleil-Waututh First Nations - colonially known as Vancouver.
             <br/><br/>
-            They have also earned their place on several competitive poetry final stages - notably the Capturing Fire International Queer Slam (2016), the Canadian Festival of Spoken Word (2018), and the Canadian Individual Poetry Slam (2016-2018) wherein they took 3rd place in the Nation in 2019. They have also served their community as a lifelong volunteer as well as leader in the roles of SpeakNorth national slammaster (2019-present) and Executive Director of Voices of Today (2017-present).
+            Kay has performed, led workshops, and volunteered at poetry events across Turtle Island, The UK, and the Netherlands with their biographical poetry talking about gender and sexuality, judaism, grief, mental health, and being a whore. Their work has been featured on Button Poetry, Slamfind, Write About Now, and Voicemail Poems. They dreamed up, curated, and edited ‘A Whore’s Manifesto: An Anthology of Art and Writing by Sex Workers’. They are a Co-Founder and Director of Voices of Today, a poetry festival run by youth for youth, and sit on the SpeakNorth Board of Directors.
             <br/><br/>
-            Kay currently resides on the unceded lands of the Musqueam, Squamish, and Tsleil-Waututh First Nations - colonially known as Vancouver.
+            Kay has competed at over a dozen national and international poetry slam competitions. Notably, Kay placed 2nd at Capturing Fire International Queer Slam (2016) while representing Hot Damn! It's A Queer Slam. They placed 3rd at the Canadian Festival of Spoken Word (2018) with the Vancouver Poetry Slam Team, and 3rd at the Canadian Individual Poetry Slam (2019).
             <br/> <br/>
             </span>
             </div>
