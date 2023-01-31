@@ -48,11 +48,11 @@ const Page = React.createClass({
             </div>
             <span className={css(ST.bio)}>
             <br/>
-            Kay Kassirer (they/them) is a spoken word poet, community organizer, and sex worker currently residing on the unceded lands of the Musqueam, Squamish, and Tsleil-Waututh First Nations - colonially known as Vancouver.
+            Kay Kassirer (they/them) is a spoken word poet currently residing on the unceded lands of the Musqueam, Squamish, and Tsleil-Waututh First Nations - colonially known as Vancouver. Their autobiographical poetry focuses on gender & sexuality, grief, disability, and sex work.
             <br/><br/>
-            Kay has performed, led workshops, and volunteered at poetry events across Turtle Island, The UK, and the Netherlands with their biographical poetry talking about gender and sexuality, judaism, grief, mental health, and being a whore. Their work has been featured on Button Poetry, Slamfind, Write About Now, and Voicemail Poems. They dreamed up, curated, and edited ‘A Whore’s Manifesto: An Anthology of Art and Writing by Sex Workers’. They are a Co-Founder and Director of Voices of Today, a poetry festival run by youth for youth, and sit on the SpeakNorth Board of Directors.
+            Kay has toured internationally performing at venues like Buddies in Bad Times Theatre, the Bowery Poetry Club, Write About Now, Hillside Festival, and the Remai Modern Museum. They have competed at over a dozen national and international poetry slam festivals earning their place on several competitive final stages. Notably, Kay placed 2nd at Capturing Fire International Queer Slam (2016) while representing Hot Damn! It's A Queer Slam, 3rd at the Canadian Festival of Spoken Word (2018) with the Vancouver Poetry Slam Team, and 3rd at the Canadian Individual Poetry Slam (2019).
             <br/><br/>
-            Kay has competed at over a dozen national and international poetry slam competitions. Notably, Kay placed 2nd at Capturing Fire International Queer Slam (2016) while representing Hot Damn! It's A Queer Slam. They placed 3rd at the Canadian Festival of Spoken Word (2018) with the Vancouver Poetry Slam Team, and 3rd at the Canadian Individual Poetry Slam (2019).
+            Kay co-founded and directed of Voices of Today, a poetry festival run by youth for youth (2017-2020), and sat on the SpeakNorth Board of Directors (2016-2020). They curated and edited ‘A Whore’s Manifesto: An Anthology of Writing and Artwork by Sex Workers’ published by Thorntree Press. Their work has been featured on Button Poetry, Slamfind, Voicemail Poems, and The Rusty Toque.
             <br/> <br/>
             </span>
             </div>
