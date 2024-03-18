@@ -52,20 +52,15 @@ const Poetry = React.createClass({
                         </span>
                     </div>
 
+
                     <iframe
-                        src="https://www.youtube.com/embed/6Y3ClEfE9gQ"
+                        src="https://www.youtube.com/embed/iOZWoRFNs44"
                         className={css(ST.video)}
                         frameborder="0" allowfullscreen>
                     </iframe>
 
                     <iframe
-                        src="https://www.youtube.com/embed/HTG9aIw9uvQ"
-                        className={css(ST.video)}
-                        frameborder="0" allowfullscreen>
-                    </iframe>
-
-                    <iframe
-                        src="https://www.youtube.com/embed/Nk30GFeSPCE"
+                        src="https://www.youtube.com/embed/JHIiCsdSTeU"
                         className={css(ST.video)}
                         frameborder="0" allowfullscreen>
                     </iframe>
@@ -77,8 +72,16 @@ const Poetry = React.createClass({
                     </iframe>
 
                     <iframe
-                        src="https://www.youtube.com/embed/videoseries?list=PLLGnibIm00NbKkXEvK0MPZF0rnKjmKj8O"
-                        className={css(ST.video)}>
+                        src="https://www.youtube.com/embed/KRpVyYBRhPg"
+                        className={css(ST.video)}
+                        frameborder="0" allowfullscreen>
+                    </iframe>
+
+
+                    <iframe
+                        src="https://www.youtube.com/embed/zRLkgr-8TRA"
+                        className={css(ST.video)}
+                        frameborder="0" allowfullscreen>
                     </iframe>
                 </div>
             </div>

@@ -50,10 +50,10 @@ const Page = React.createClass({
             <br/>
             Kay Kassirer (they/them) is a spoken word poet currently residing on the unceded lands of the Musqueam, Squamish, and Tsleil-Waututh First Nations - colonially known as Vancouver. Their autobiographical poetry focuses on gender & sexuality, grief, disability, and sex work.
             <br/><br/>
-            Kay has toured internationally performing at venues like Buddies in Bad Times Theatre, the Bowery Poetry Club, Busboys and Poets, Write About Now, and Hillside Festival. They have competed at over a dozen national and international poetry slam festivals earning their place on several competitive final stages. Notably, Kay placed 2nd at Capturing Fire International Queer Slam (2016) while representing Hot Damn! It's A Queer Slam, and 3rd at the Canadian Festival of Spoken Word (2018) and the Canadian Individual Poetry Slam (2019) while representing Vancouver Poetry Slam.
+            Kay has toured internationally performing at venues like Buddies in Bad Times Theatre, Busboys and Poets, and the Bowery Poetry Club. They have competed at over a dozen national and international poetry slam festivals earning their place on several competitive final stages. Notably, Kay placed 2nd at Capturing Fire International Queer Slam (2016) while representing Hot Damn! It's A Queer Slam, and 3rd at the Canadian Festival of Spoken Word (2018) and the Canadian Individual Poetry Slam (2019) while representing Vancouver Poetry Slam.
             <br/><br/>
-            Kay co-founded and directed Voices of Today, a poetry festival run by youth for youth (2017-2020), and sat on the SpeakNorth Board of Directors (2016-2020). They curated and edited ‘A Whore’s Manifesto: An Anthology of Writing and Artwork by Sex Workers’ published by Thorntree Press. Their work has been featured on Button Poetry, Slamfind, Voicemail Poems, and The Rusty Toque.
-            <br/> <br/>
+            Kay Co-Founded and Co-Directed Voices of Today, a poetry festival run by youth for youth (2017-2020), and sat on the SpeakNorth Board of Directors (2016-2020). They are a Co-Founder and Event Producer with Under the Table Poetry Collective organizing poetry shows centering disabled and/or queer artists. They curated and edited ‘A Whore’s Manifesto: An Anthology of Writing and Artwork by Sex Workers’ published by Thornapple Press. Their work has been featured in numerous places including Button Poetry, Write About Now, Slamfind, and Arc Poetry.
+            <br/><br/>
             </span>
             </div>
         </div>;
