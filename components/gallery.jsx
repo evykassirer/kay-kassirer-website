@@ -19,10 +19,9 @@ const Gallery = React.createClass({
             <Header page="gallery"/>
             <div className={css(ST.pageContent)}>
                 {photoIDs.map(function(i) {
-                    const photographer = i === 10 ? "Patrick Shannon (InnoNative.ca)" : null;
                     const img_extension = [3, 9].includes(i) ? "jpeg" : "jpg";
                     const src = `images/gallery/${i}.${img_extension}`;
-                    return <Image number={i} photographer={photographer} src={src}/>
+                    return <Image number={i} src={src}/>
                 })}
             </div>
         </div>
@@ -31,18 +30,10 @@ const Gallery = React.createClass({
 
 const Image = React.createClass({
     render: function() {
-        const image = <img className={css(ST.image)}
+        return <img className={css(ST.image)}
             key={this.props.number.toString()}
             src={this.props.src}
         />
-
-        if (this.props.photographer) {
-            return <div className={css(ST.image_with_caption)}>
-                {image}
-                <span> 📷 {this.props.photographer}</span>
-            </div>
-        }
-        return image;
     }
 });
 
@@ -63,11 +54,6 @@ const ST = StyleSheet.create({
     image: {
         maxWidth: 700,
         maxHeight: 600
-    },
-    image_with_caption: {
-        display: "flex",
-        "flex-direction": "column",
-        "align-items": "center",
     }
 });
 

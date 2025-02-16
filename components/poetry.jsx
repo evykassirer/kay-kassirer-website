@@ -14,7 +14,7 @@ const Poetry = React.createClass({
             <Header page="poetry"/>
             <div className={css(ST.pageContent)}>
 
-            <div className={css(ST.title)}>Publications</div>
+            <div className={css(ST.title)}>Selected Poems</div>
 
                 <div className={css(ST.publication)}>
                     <div className={css(ST.publicationTitle)}>
@@ -68,9 +68,9 @@ const Poetry = React.createClass({
 
                 <br/>
                 <br/>
-                <hr/>
 
                 <div className={css(ST.title)}>YouTube</div>
+                <br/>
 
                 <div className={css(ST.videoWrapper)}>
 

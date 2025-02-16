@@ -28,24 +28,6 @@ const Page = React.createClass({
             <Header page="home"/>
             <div className={css(ST.pageContent)}>
             <img src="images/Kay-banner.jpg" className={css(ST.banner)}/>
-            <div className={css(ST.iconGroup)}>
-                <Icon
-                    imageName="facebook.png"
-                    linkTo="https://www.facebook.com/KayKassirerPoetry/"
-                />
-                <Icon
-                    imageName="twitter.png"
-                    linkTo="https://twitter.com/kaykassirer"
-                />
-                <Icon
-                    imageName="youtube.png"
-                    linkTo="http://youtube.com/queerkay"
-                />
-                <Icon
-                    imageName="email.png"
-                    linkTo="mailto:kay.kassirer@gmail.com"
-                />
-            </div>
             <span className={css(ST.bio)}>
             <br/>
             Kay Kassirer (they/them) is a white queer poet currently residing on the unceded lands of the Musqueam, Squamish, and Tsleil-Waututh First Nations - colonially known as Vancouver. Their autobiographical poetry focuses on grief, disability, and sex work.
