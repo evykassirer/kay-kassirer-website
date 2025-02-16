@@ -14,25 +14,55 @@ const Poetry = React.createClass({
             <Header page="poetry"/>
             <div className={css(ST.pageContent)}>
 
+            <div className={css(ST.title)}>Publications</div>
+
                 <div className={css(ST.publication)}>
                     <div className={css(ST.publicationTitle)}>
-                        The Rusty Toque: published in <a href="http://www.therustytoque.com/issue-13.html">
-                            Issue 13
-                        </a>
+                        Frontier Poetry
                     </div>
-                    ~~ <a href="http://www.therustytoque.com/poetry-kay-kassirer.html">
-                        He Can't Take Something I Never Had
+                    <a className={css(ST.poemTitleAndLink)} href="https://www.frontierpoetry.com/2024/11/14/kay-kassirer/">
+                        golden shovel after my mother’s affidavit for medical assistance in dying
                     </a>
                 </div>
 
                 <div className={css(ST.publication)}>
                     <div className={css(ST.publicationTitle)}>
-                        Voicemail Poems: published in the <a href="http://voicemailpoems.org/post/159115161387/voicemail-poems-spring-2017-just-dropped">
-                            Spring 2017
-                        </a> episode
+                        Water Damaged Paper Anthology Volume 3: Through Community We Reimagine
                     </div>
-                    ~~ <a href="https://soundcloud.com/voicemailpoems/dancefloorsanctuaryofficebedroom-by-kay-kassirer">
+                    <a className={css(ST.poemTitleAndLink)} href="https://online.fliphtml5.com/jeymc/bfcy/#p=36">
+                        misunderstood signals
+                    </a>
+                </div>
+
+                <div className={css(ST.publication)}>
+                    <div className={css(ST.publicationTitle)}>
+                        Stoked Words: An Anthology of Queer Poetry from the Capturing Fire Slam & Summit
+                    </div>
+                    <a className={css(ST.poemTitleAndLink)} href="https://capfireslam.org/wp-content/uploads/2018/10/stokedwords-final102418.pdf#page=118">
+                        Sink Girl Part 5 - Cold Air on Naked Skin & Two Soft Bodies (Sad & Gay)
+                    </a>
+                </div>
+
+
+                <div className={css(ST.publication)}>
+                    <div className={css(ST.publicationTitle)}>
+                        Voicemail Poems, <a href="http://voicemailpoems.org/post/159115161387/voicemail-poems-spring-2017-just-dropped">
+                            Spring 2017 episode
+                        </a>
+                    </div>
+                    <a className={css(ST.poemTitleAndLink)} href="https://soundcloud.com/voicemailpoems/dancefloorsanctuaryofficebedroom-by-kay-kassirer">
                         Dancefloor/Sanctuary/Office/Bedroom
+                    </a>
+                </div>
+
+                <div className={css(ST.publication)}>
+                    <div className={css(ST.publicationTitle)}>
+                        The Rusty Toque, <a href="http://www.therustytoque.com/issue-13.html">
+                            Issue 13
+                        </a>
+                    </div>
+                    <a className={css(ST.poemTitleAndLink)} href="http://www.therustytoque.com/poetry-kay-kassirer.html">
+                        He Can't Take Something I Never Had
                     </a>
                 </div>
 
@@ -43,14 +73,7 @@ const Poetry = React.createClass({
                 <div className={css(ST.title)}>YouTube</div>
 
                 <div className={css(ST.videoWrapper)}>
-                    <div className={css(ST.suscribe)}>
-                        <span
-                            className="g-ytsubscribe"
-                            data-channel="queerKay"
-                            data-layout="full"
-                            data-count="default">
-                        </span>
-                    </div>
+
 
 
                     <iframe
@@ -72,11 +95,10 @@ const Poetry = React.createClass({
                     </iframe>
 
                     <iframe
-                        src="https://www.youtube.com/embed/KRpVyYBRhPg"
+                        src="https://www.youtube.com/embed/Uh7zH6Pt0jw?si=LdsXZulOFsuCQlsL"
                         className={css(ST.video)}
                         frameborder="0" allowfullscreen>
                     </iframe>
-
 
                     <iframe
                         src="https://www.youtube.com/embed/zRLkgr-8TRA"
@@ -95,15 +117,18 @@ const ST = StyleSheet.create({
     },
     pageContent: {
         paddingTop: "70px",
-        width: "730px",
+        width: "800px",
         margin: "0 auto",
     },
     publication: {
         marginLeft: 40
     },
     publicationTitle: {
-        fontSize: 22,
+        fontSize: 20,
         margin: "30px 0 10px 0"
+    },
+    poemTitleAndLink: {
+        fontSize: 18,
     },
     title: {
         fontSize: 40,
