@@ -15,6 +15,23 @@ const Poetry = React.createClass({
             <div className={css(ST.pageContent)}>
 
             <div className={css(ST.title)}>Selected Poems</div>
+                <div className={css(ST.publication)}>
+                    <div className={css(ST.publicationTitle)}>
+                        Plenitude
+                    </div>
+                    <a className={css(ST.poemTitleAndLink)} href="https://plenitudemagazine.ca/shapeless-paradox-kays-hope-passed-away/">
+                        shapeless paradox & kay’s hope passed away
+                    </a>
+                </div>
+
+                <div className={css(ST.publication)}>
+                    <div className={css(ST.publicationTitle)}>
+                        Palette Poetry
+                    </div>
+                    <a className={css(ST.poemTitleAndLink)} href="https://www.palettepoetry.com/2025/03/17/pantoum-in-which-my-body-becomes-a-locked-door/">
+                        pantoum in which my body becomes a locked door
+                    </a>
+                </div>
 
                 <div className={css(ST.publication)}>
                     <div className={css(ST.publicationTitle)}>
